@@ -1,0 +1,4376 @@
+{
+  "2020": {
+    "AE": [
+      {
+        "title": "Lead Data Scientist",
+        "salary": 115000.0
+      }
+    ],
+    "AT": [
+      {
+        "title": "Data Scientist",
+        "salary": 91237.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 74130.0
+      }
+    ],
+    "CA": [
+      {
+        "title": "Machine Learning Manager",
+        "salary": 117104.0
+      },
+      {
+        "title": "Staff Data Analyst",
+        "salary": 29876.5
+      }
+    ],
+    "DE": [
+      {
+        "title": "Principal Data Scientist",
+        "salary": 148261.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 63942.33
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 57022.5
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 47899.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 15966.0
+      }
+    ],
+    "DK": [
+      {
+        "title": "AI Scientist",
+        "salary": 45896.0
+      }
+    ],
+    "ES": [
+      {
+        "title": "Data Engineer",
+        "salary": 79833.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 38776.0
+      }
+    ],
+    "FR": [
+      {
+        "title": "Data Engineer",
+        "salary": 70139.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 46759.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 44478.0
+      }
+    ],
+    "GB": [
+      {
+        "title": "Data Engineer",
+        "salary": 112872.0
+      },
+      {
+        "title": "Big Data Engineer",
+        "salary": 111535.5
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 76958.0
+      }
+    ],
+    "GR": [
+      {
+        "title": "Data Engineer",
+        "salary": 47899.0
+      }
+    ],
+    "HN": [
+      {
+        "title": "Product Data Analyst",
+        "salary": 20000.0
+      }
+    ],
+    "HR": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 45618.0
+      }
+    ],
+    "HU": [
+      {
+        "title": "Data Scientist",
+        "salary": 35735.0
+      }
+    ],
+    "IN": [
+      {
+        "title": "Data Scientist",
+        "salary": 40481.0
+      }
+    ],
+    "IT": [
+      {
+        "title": "Data Scientist",
+        "salary": 21669.0
+      }
+    ],
+    "JP": [
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 260000.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 41689.0
+      }
+    ],
+    "LU": [
+      {
+        "title": "Data Scientist",
+        "salary": 62726.0
+      }
+    ],
+    "MU": [
+      {
+        "title": "Azure Data Engineer",
+        "salary": 100000.0
+      }
+    ],
+    "MX": [
+      {
+        "title": "Data Engineer",
+        "salary": 33511.0
+      }
+    ],
+    "NG": [
+      {
+        "title": "Sales Data Analyst",
+        "salary": 60000.0
+      }
+    ],
+    "NL": [
+      {
+        "title": "Research Scientist",
+        "salary": 42000.0
+      }
+    ],
+    "NZ": [
+      {
+        "title": "Lead Data Engineer",
+        "salary": 125000.0
+      }
+    ],
+    "PT": [
+      {
+        "title": "Machine Learning Infrastructure Engineer",
+        "salary": 50180.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 22809.0
+      }
+    ],
+    "US": [
+      {
+        "title": "Research Scientist",
+        "salary": 450000.0
+      },
+      {
+        "title": "Lead Data Scientist",
+        "salary": 190000.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 179333.33
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 169228.17
+      },
+      {
+        "title": "Staff Data Scientist",
+        "salary": 164000.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 133700.0
+      },
+      {
+        "title": "Business Data Analyst",
+        "salary": 110000.0
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 98000.0
+      },
+      {
+        "title": "Lead Data Analyst",
+        "salary": 87000.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 82666.67
+      },
+      {
+        "title": "Big Data Engineer",
+        "salary": 70000.0
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 60000.0
+      },
+      {
+        "title": "Lead Data Engineer",
+        "salary": 56000.0
+      }
+    ]
+  },
+  "2021": {
+    "AS": [
+      {
+        "title": "AI Scientist",
+        "salary": 18053.0
+      }
+    ],
+    "AT": [
+      {
+        "title": "Data Scientist",
+        "salary": 61467.0
+      }
+    ],
+    "AU": [
+      {
+        "title": "Data Engineer",
+        "salary": 75050.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 42028.0
+      }
+    ],
+    "BE": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 85699.0
+      }
+    ],
+    "BR": [
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 21453.5
+      }
+    ],
+    "BS": [
+      {
+        "title": "Autonomous Vehicle Technician",
+        "salary": 45555.0
+      }
+    ],
+    "CA": [
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 225000.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 115788.33
+      },
+      {
+        "title": "Big Data Architect",
+        "salary": 99703.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 98606.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 71786.0
+      },
+      {
+        "title": "Applied Data Scientist",
+        "salary": 54238.0
+      }
+    ],
+    "CL": [
+      {
+        "title": "Data Scientist",
+        "salary": 40038.0
+      }
+    ],
+    "CN": [
+      {
+        "title": "Research Scientist",
+        "salary": 100000.0
+      }
+    ],
+    "CO": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 21844.0
+      }
+    ],
+    "CZ": [
+      {
+        "title": "Research Scientist",
+        "salary": 69999.0
+      }
+    ],
+    "DE": [
+      {
+        "title": "Principal Data Scientist",
+        "salary": 173762.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 87224.78
+      },
+      {
+        "title": "Data Analytics Engineer",
+        "salary": 79197.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 68129.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 65013.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 63831.0
+      }
+    ],
+    "DK": [
+      {
+        "title": "Marketing Data Analyst",
+        "salary": 88654.0
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 28609.0
+      },
+      {
+        "title": "Computer Vision Software Engineer",
+        "salary": 19073.0
+      }
+    ],
+    "ES": [
+      {
+        "title": "AI Scientist",
+        "salary": 55000.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 51458.33
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 47282.0
+      }
+    ],
+    "FR": [
+      {
+        "title": "Data Scientist",
+        "salary": 73833.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 59693.5
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 59102.0
+      },
+      {
+        "title": "Machine Learning Research Engineer",
+        "salary": 20000.0
+      }
+    ],
+    "GB": [
+      {
+        "title": "Applied Data Scientist",
+        "salary": 110037.0
+      },
+      {
+        "title": "Lead Data Engineer",
+        "salary": 103160.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 86585.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 82528.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 78963.29
+      },
+      {
+        "title": "Finance Data Analyst",
+        "salary": 61896.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 51519.0
+      },
+      {
+        "title": "Data Analytics Engineer",
+        "salary": 50000.0
+      }
+    ],
+    "GH": [
+      {
+        "title": "AI Scientist",
+        "salary": 30000.0
+      }
+    ],
+    "GR": [
+      {
+        "title": "Data Scientist",
+        "salary": 40189.0
+      }
+    ],
+    "IL": [
+      {
+        "title": "Data Scientist",
+        "salary": 119059.0
+      }
+    ],
+    "IN": [
+      {
+        "title": "Data Scientist",
+        "salary": 42936.83
+      },
+      {
+        "title": "Lead Data Scientist",
+        "salary": 40570.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 36869.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 26032.5
+      },
+      {
+        "title": "Lead Data Analyst",
+        "salary": 19609.0
+      },
+      {
+        "title": "Big Data Engineer",
+        "salary": 19419.5
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 16904.0
+      }
+    ],
+    "IQ": [
+      {
+        "title": "Machine Learning Developer",
+        "salary": 100000.0
+      }
+    ],
+    "IT": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 51064.0
+      }
+    ],
+    "JP": [
+      {
+        "title": "Data Scientist",
+        "salary": 168000.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 71691.67
+      }
+    ],
+    "LU": [
+      {
+        "title": "Business Data Analyst",
+        "salary": 59102.0
+      }
+    ],
+    "MD": [
+      {
+        "title": "Big Data Engineer",
+        "salary": 18000.0
+      }
+    ],
+    "MT": [
+      {
+        "title": "Data Engineer",
+        "salary": 28369.0
+      }
+    ],
+    "NG": [
+      {
+        "title": "Machine Learning Developer",
+        "salary": 60000.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 50000.0
+      }
+    ],
+    "NL": [
+      {
+        "title": "Data Engineer",
+        "salary": 57566.0
+      }
+    ],
+    "PH": [
+      {
+        "title": "Data Analyst",
+        "salary": 50000.0
+      }
+    ],
+    "PL": [
+      {
+        "title": "Data Scientist",
+        "salary": 153667.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 46597.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 28476.0
+      }
+    ],
+    "PT": [
+      {
+        "title": "Research Scientist",
+        "salary": 60757.0
+      }
+    ],
+    "RO": [
+      {
+        "title": "Big Data Engineer",
+        "salary": 60000.0
+      }
+    ],
+    "RU": [
+      {
+        "title": "Head of Data",
+        "salary": 230000.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 85000.0
+      }
+    ],
+    "SG": [
+      {
+        "title": "Cloud Data Engineer",
+        "salary": 89294.0
+      },
+      {
+        "title": "Marketing Data Engineer",
+        "salary": 66970.0
+      }
+    ],
+    "SI": [
+      {
+        "title": "Head of Data",
+        "salary": 102839.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 24823.0
+      }
+    ],
+    "TH": [
+      {
+        "title": "Machine Learning Developer",
+        "salary": 15000.0
+      }
+    ],
+    "TR": [
+      {
+        "title": "Data Engineer",
+        "salary": 28016.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 20171.0
+      }
+    ],
+    "US": [
+      {
+        "title": "Principal Data Scientist",
+        "salary": 255500.0
+      },
+      {
+        "title": "Cloud Data Architect",
+        "salary": 250000.0
+      },
+      {
+        "title": "Head of Data",
+        "salary": 235000.0
+      },
+      {
+        "title": "Applied Machine Learning Scientist",
+        "salary": 230700.0
+      },
+      {
+        "title": "Lead Data Engineer",
+        "salary": 218000.0
+      },
+      {
+        "title": "Machine Learning Infrastructure Engineer",
+        "salary": 195000.0
+      },
+      {
+        "title": "Principal Data Engineer",
+        "salary": 192500.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 186166.67
+      },
+      {
+        "title": "Staff Machine Learning Engineer",
+        "salary": 185000.0
+      },
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 172500.0
+      },
+      {
+        "title": "Lead Data Analyst",
+        "salary": 170000.0
+      },
+      {
+        "title": "Principal Data Analyst",
+        "salary": 170000.0
+      },
+      {
+        "title": "Data Architect",
+        "salary": 166666.67
+      },
+      {
+        "title": "Data Specialist",
+        "salary": 165000.0
+      },
+      {
+        "title": "Cloud Data Engineer",
+        "salary": 160000.0
+      },
+      {
+        "title": "Data Analytics Manager",
+        "salary": 126666.67
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 126373.65
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 124401.43
+      },
+      {
+        "title": "Data Analytics Engineer",
+        "salary": 110000.0
+      },
+      {
+        "title": "Staff Data Scientist",
+        "salary": 105000.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 93076.92
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 85314.75
+      },
+      {
+        "title": "Computer Vision Software Engineer",
+        "salary": 82873.0
+      },
+      {
+        "title": "Business Data Analyst",
+        "salary": 56000.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 50000.0
+      }
+    ]
+  },
+  "2022": {
+    "AE": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 92500.0
+      }
+    ],
+    "AR": [
+      {
+        "title": "Data Analyst",
+        "salary": 50000.0
+      }
+    ],
+    "AS": [
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 60000.0
+      },
+      {
+        "title": "Business Data Analyst",
+        "salary": 50000.0
+      }
+    ],
+    "AT": [
+      {
+        "title": "Data Scientist Lead",
+        "salary": 89306.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 61989.0
+      },
+      {
+        "title": "Applied Data Scientist",
+        "salary": 50000.0
+      }
+    ],
+    "AU": [
+      {
+        "title": "Data Analyst",
+        "salary": 171000.0
+      },
+      {
+        "title": "Computer Vision Software Engineer",
+        "salary": 150000.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 100036.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 83864.0
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 49209.0
+      },
+      {
+        "title": "AI Programmer",
+        "salary": 40000.0
+      },
+      {
+        "title": "Machine Learning Developer",
+        "salary": 40000.0
+      }
+    ],
+    "BE": [
+      {
+        "title": "Data Scientist",
+        "salary": 68030.5
+      }
+    ],
+    "BR": [
+      {
+        "title": "Data Scientist",
+        "salary": 69000.0
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 63000.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 60000.0
+      },
+      {
+        "title": "BI Analyst",
+        "salary": 50601.33
+      }
+    ],
+    "CA": [
+      {
+        "title": "AI Developer",
+        "salary": 275000.0
+      },
+      {
+        "title": "Machine Learning Software Engineer",
+        "salary": 206800.0
+      },
+      {
+        "title": "AI Scientist",
+        "salary": 200000.0
+      },
+      {
+        "title": "Big Data Engineer",
+        "salary": 161311.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 158300.0
+      },
+      {
+        "title": "Data Architect",
+        "salary": 141550.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 138325.0
+      },
+      {
+        "title": "Data Manager",
+        "salary": 125976.0
+      },
+      {
+        "title": "Lead Data Engineer",
+        "salary": 115222.0
+      },
+      {
+        "title": "Machine Learning Researcher",
+        "salary": 105236.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 96114.25
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 82660.0
+      },
+      {
+        "title": "Machine Learning Developer",
+        "salary": 76814.0
+      },
+      {
+        "title": "Principal Data Analyst",
+        "salary": 75000.0
+      },
+      {
+        "title": "Business Data Analyst",
+        "salary": 69133.0
+      }
+    ],
+    "CH": [
+      {
+        "title": "Data Scientist",
+        "salary": 120402.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 80616.5
+      }
+    ],
+    "CO": [
+      {
+        "title": "AI Scientist",
+        "salary": 125000.0
+      }
+    ],
+    "CZ": [
+      {
+        "title": "Applied Machine Learning Scientist",
+        "salary": 30469.0
+      }
+    ],
+    "DE": [
+      {
+        "title": "Principal Data Scientist",
+        "salary": 155499.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 105066.5
+      },
+      {
+        "title": "Lead Machine Learning Engineer",
+        "salary": 84053.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 84053.0
+      },
+      {
+        "title": "Machine Learning Research Engineer",
+        "salary": 66192.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 64193.33
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 57891.33
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 55685.0
+      },
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 34672.0
+      },
+      {
+        "title": "Machine Learning Developer",
+        "salary": 33000.0
+      }
+    ],
+    "DZ": [
+      {
+        "title": "Data Scientist",
+        "salary": 100000.0
+      }
+    ],
+    "EE": [
+      {
+        "title": "Head of Data",
+        "salary": 31520.0
+      }
+    ],
+    "EG": [
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 22800.0
+      }
+    ],
+    "ES": [
+      {
+        "title": "Data Engineer",
+        "salary": 61163.43
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 42551.8
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 40910.31
+      },
+      {
+        "title": "AI Scientist",
+        "salary": 31520.0
+      }
+    ],
+    "FI": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 63040.0
+      }
+    ],
+    "FR": [
+      {
+        "title": "BI Data Analyst",
+        "salary": 105066.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 91057.33
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 89306.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 67196.71
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 65141.0
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 58837.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 28368.0
+      }
+    ],
+    "GB": [
+      {
+        "title": "Marketing Data Analyst",
+        "salary": 200000.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 105066.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 98752.7
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 92838.17
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 82714.52
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 80323.25
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 79251.53
+      },
+      {
+        "title": "Applied Machine Learning Scientist",
+        "salary": 77119.0
+      },
+      {
+        "title": "Deep Learning Engineer",
+        "salary": 67723.0
+      },
+      {
+        "title": "Lead Data Scientist",
+        "salary": 61566.0
+      },
+      {
+        "title": "AI Research Engineer",
+        "salary": 36940.0
+      }
+    ],
+    "GH": [
+      {
+        "title": "Business Intelligence Developer",
+        "salary": 15000.0
+      }
+    ],
+    "GR": [
+      {
+        "title": "Data Engineer",
+        "salary": 70919.67
+      },
+      {
+        "title": "ETL Developer",
+        "salary": 52533.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 31182.0
+      }
+    ],
+    "HU": [
+      {
+        "title": "Data Scientist",
+        "salary": 17684.0
+      }
+    ],
+    "ID": [
+      {
+        "title": "Data Scientist",
+        "salary": 53416.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 15000.0
+      }
+    ],
+    "IE": [
+      {
+        "title": "Lead Data Scientist",
+        "salary": 172309.0
+      },
+      {
+        "title": "Head of Business Intelligence",
+        "salary": 105066.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 68293.0
+      }
+    ],
+    "IL": [
+      {
+        "title": "AI Engineer",
+        "salary": 107093.0
+      }
+    ],
+    "IN": [
+      {
+        "title": "Lead Machine Learning Engineer",
+        "salary": 95386.0
+      },
+      {
+        "title": "Head of Machine Learning",
+        "salary": 76309.0
+      },
+      {
+        "title": "Admin & Data Analyst",
+        "salary": 60000.0
+      },
+      {
+        "title": "Lead Data Scientist",
+        "salary": 56723.0
+      },
+      {
+        "title": "Principal Data Architect",
+        "salary": 38154.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 35610.0
+      },
+      {
+        "title": "Applied Machine Learning Scientist",
+        "salary": 30523.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 23740.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 23000.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 20984.0
+      },
+      {
+        "title": "Business Data Analyst",
+        "salary": 18059.5
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 15897.0
+      }
+    ],
+    "IR": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 100000.0
+      }
+    ],
+    "IT": [
+      {
+        "title": "Data Management Specialist",
+        "salary": 68293.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 24165.0
+      }
+    ],
+    "JP": [
+      {
+        "title": "Research Engineer",
+        "salary": 41809.0
+      }
+    ],
+    "LT": [
+      {
+        "title": "Data Engineer",
+        "salary": 94812.0
+      }
+    ],
+    "MX": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 220000.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 45000.0
+      }
+    ],
+    "MY": [
+      {
+        "title": "Data Scientist",
+        "salary": 40000.0
+      }
+    ],
+    "NG": [
+      {
+        "title": "BI Analyst",
+        "salary": 200000.0
+      }
+    ],
+    "NL": [
+      {
+        "title": "Data Analytics Manager",
+        "salary": 133000.0
+      },
+      {
+        "title": "Applied Machine Learning Scientist",
+        "salary": 97712.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 84053.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 83264.75
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 59888.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 59888.0
+      }
+    ],
+    "PK": [
+      {
+        "title": "Applied Data Scientist",
+        "salary": 40000.0
+      },
+      {
+        "title": "Data Analytics Engineer",
+        "salary": 20000.0
+      }
+    ],
+    "PL": [
+      {
+        "title": "NLP Engineer",
+        "salary": 44365.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 33609.0
+      }
+    ],
+    "PR": [
+      {
+        "title": "Data Engineer",
+        "salary": 167500.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 167500.0
+      }
+    ],
+    "PT": [
+      {
+        "title": "Lead Machine Learning Engineer",
+        "salary": 69344.0
+      },
+      {
+        "title": "Machine Learning Infrastructure Engineer",
+        "salary": 55685.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 53846.25
+      },
+      {
+        "title": "Lead Data Scientist",
+        "salary": 29944.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 21013.0
+      }
+    ],
+    "RO": [
+      {
+        "title": "Software Development Engineer",
+        "salary": 15129.0
+      }
+    ],
+    "RU": [
+      {
+        "title": "Data Scientist",
+        "salary": 106000.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 16455.0
+      }
+    ],
+    "SG": [
+      {
+        "title": "Data Analyst",
+        "salary": 65257.0
+      }
+    ],
+    "TR": [
+      {
+        "title": "Data Scientist",
+        "salary": 25000.0
+      }
+    ],
+    "US": [
+      {
+        "title": "Data Analytics Lead",
+        "salary": 405000.0
+      },
+      {
+        "title": "Data Science Tech Lead",
+        "salary": 375000.0
+      },
+      {
+        "title": "Machine Learning Software Engineer",
+        "salary": 375000.0
+      },
+      {
+        "title": "Applied Data Scientist",
+        "salary": 238000.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 207870.0
+      },
+      {
+        "title": "Principal Machine Learning Engineer",
+        "salary": 190000.0
+      },
+      {
+        "title": "Head of Data",
+        "salary": 188333.33
+      },
+      {
+        "title": "Applied Scientist",
+        "salary": 188311.11
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 184927.78
+      },
+      {
+        "title": "Data Scientist Lead",
+        "salary": 183000.0
+      },
+      {
+        "title": "AI Architect",
+        "salary": 180000.0
+      },
+      {
+        "title": "Machine Learning Developer",
+        "salary": 180000.0
+      },
+      {
+        "title": "Cloud Database Engineer",
+        "salary": 175000.0
+      },
+      {
+        "title": "Machine Learning Manager",
+        "salary": 175000.0
+      },
+      {
+        "title": "Lead Data Scientist",
+        "salary": 174434.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 168521.07
+      },
+      {
+        "title": "Machine Learning Infrastructure Engineer",
+        "salary": 167400.0
+      },
+      {
+        "title": "Data Architect",
+        "salary": 167207.07
+      },
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 155708.33
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 155309.43
+      },
+      {
+        "title": "AI Scientist",
+        "salary": 154000.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 151217.02
+      },
+      {
+        "title": "ETL Developer",
+        "salary": 151183.75
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 149453.12
+      },
+      {
+        "title": "Data Analytics Engineer",
+        "salary": 135000.0
+      },
+      {
+        "title": "Data Analytics Manager",
+        "salary": 134156.67
+      },
+      {
+        "title": "BI Developer",
+        "salary": 130000.0
+      },
+      {
+        "title": "MLOps Engineer",
+        "salary": 129000.0
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 125000.0
+      },
+      {
+        "title": "Manager Data Management",
+        "salary": 125000.0
+      },
+      {
+        "title": "Machine Learning Researcher",
+        "salary": 120000.0
+      },
+      {
+        "title": "Product Data Analyst",
+        "salary": 120000.0
+      },
+      {
+        "title": "Data Specialist",
+        "salary": 118181.82
+      },
+      {
+        "title": "Applied Machine Learning Scientist",
+        "salary": 116200.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 114924.09
+      },
+      {
+        "title": "Business Data Analyst",
+        "salary": 99333.33
+      },
+      {
+        "title": "Data Manager",
+        "salary": 97816.67
+      },
+      {
+        "title": "Data Operations Analyst",
+        "salary": 90562.5
+      },
+      {
+        "title": "Financial Data Analyst",
+        "salary": 87500.0
+      },
+      {
+        "title": "Data Operations Engineer",
+        "salary": 81875.0
+      },
+      {
+        "title": "Data Analytics Consultant",
+        "salary": 81500.0
+      },
+      {
+        "title": "BI Analyst",
+        "salary": 76000.0
+      },
+      {
+        "title": "NLP Engineer",
+        "salary": 60000.0
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 57000.0
+      }
+    ]
+  },
+  "2023": {
+    "AD": [
+      {
+        "title": "Data Scientist",
+        "salary": 50745.0
+      }
+    ],
+    "AM": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 50000.0
+      }
+    ],
+    "AR": [
+      {
+        "title": "Data Engineer",
+        "salary": 65000.0
+      }
+    ],
+    "AU": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 237854.14
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 141172.5
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 99192.0
+      },
+      {
+        "title": "AI Scientist",
+        "salary": 81838.0
+      },
+      {
+        "title": "AI Programmer",
+        "salary": 70000.0
+      },
+      {
+        "title": "Software Data Engineer",
+        "salary": 50000.0
+      }
+    ],
+    "BA": [
+      {
+        "title": "AI Developer",
+        "salary": 120000.0
+      }
+    ],
+    "BR": [
+      {
+        "title": "Head of Data",
+        "salary": 112500.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 66000.0
+      },
+      {
+        "title": "Principal Machine Learning Engineer",
+        "salary": 38290.0
+      },
+      {
+        "title": "MLOps Engineer",
+        "salary": 27568.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 19910.0
+      }
+    ],
+    "CA": [
+      {
+        "title": "Deep Learning Engineer",
+        "salary": 201702.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 197000.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 176907.69
+      },
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 173350.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 171653.37
+      },
+      {
+        "title": "Data Lead",
+        "salary": 162500.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 146389.51
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 138800.0
+      },
+      {
+        "title": "Data Architect",
+        "salary": 138089.75
+      },
+      {
+        "title": "Business Intelligence Engineer",
+        "salary": 135000.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 122888.56
+      },
+      {
+        "title": "Consultant Data Engineer",
+        "salary": 118539.0
+      },
+      {
+        "title": "Business Intelligence Developer",
+        "salary": 108250.0
+      },
+      {
+        "title": "Data Integration Specialist",
+        "salary": 100000.0
+      },
+      {
+        "title": "Business Intelligence Analyst",
+        "salary": 88667.0
+      },
+      {
+        "title": "Data Strategist",
+        "salary": 81000.0
+      },
+      {
+        "title": "AI Programmer",
+        "salary": 74087.0
+      },
+      {
+        "title": "Business Intelligence Data Analyst",
+        "salary": 67419.0
+      },
+      {
+        "title": "Computer Vision Software Engineer",
+        "salary": 53984.0
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 50000.0
+      }
+    ],
+    "CF": [
+      {
+        "title": "Data Analyst",
+        "salary": 49216.0
+      }
+    ],
+    "CH": [
+      {
+        "title": "Data Scientist",
+        "salary": 113331.0
+      },
+      {
+        "title": "AI Research Engineer",
+        "salary": 24322.0
+      }
+    ],
+    "CO": [
+      {
+        "title": "Data Engineer",
+        "salary": 87750.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 80000.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 72000.0
+      },
+      {
+        "title": "Data Manager",
+        "salary": 56500.0
+      }
+    ],
+    "CZ": [
+      {
+        "title": "Data Scientist",
+        "salary": 107968.0
+      }
+    ],
+    "DE": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 186140.57
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 160835.5
+      },
+      {
+        "title": "AI Developer",
+        "salary": 140358.5
+      },
+      {
+        "title": "Deep Learning Researcher",
+        "salary": 124163.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 108332.67
+      },
+      {
+        "title": "Data DevOps Engineer",
+        "salary": 95012.0
+      },
+      {
+        "title": "AI Scientist",
+        "salary": 92390.5
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 72338.0
+      },
+      {
+        "title": "Applied Machine Learning Engineer",
+        "salary": 70179.0
+      },
+      {
+        "title": "Applied Data Scientist",
+        "salary": 64781.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 60462.0
+      },
+      {
+        "title": "Prompt Engineer",
+        "salary": 60462.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 50744.5
+      },
+      {
+        "title": "Admin & Data Analyst",
+        "salary": 50000.0
+      },
+      {
+        "title": "Applied Machine Learning Scientist",
+        "salary": 45915.5
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 35000.0
+      }
+    ],
+    "DK": [
+      {
+        "title": "Power BI Developer",
+        "salary": 64781.0
+      }
+    ],
+    "EC": [
+      {
+        "title": "Data Scientist",
+        "salary": 16000.0
+      }
+    ],
+    "EE": [
+      {
+        "title": "Data Scientist",
+        "salary": 63701.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 50529.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 45130.33
+      }
+    ],
+    "ES": [
+      {
+        "title": "Research Scientist",
+        "salary": 211475.0
+      },
+      {
+        "title": "Principal Data Engineer",
+        "salary": 91773.0
+      },
+      {
+        "title": "Principal Data Scientist",
+        "salary": 86374.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 70257.0
+      },
+      {
+        "title": "NLP Engineer",
+        "salary": 69909.5
+      },
+      {
+        "title": "Research Analyst",
+        "salary": 49297.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 48944.83
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 48796.0
+      },
+      {
+        "title": "Big Data Engineer",
+        "salary": 48585.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 46170.05
+      },
+      {
+        "title": "AI Scientist",
+        "salary": 38868.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 38868.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 34549.0
+      },
+      {
+        "title": "Business Data Analyst",
+        "salary": 21593.0
+      }
+    ],
+    "FI": [
+      {
+        "title": "AI Developer",
+        "salary": 74883.0
+      },
+      {
+        "title": "Applied Data Scientist",
+        "salary": 67635.0
+      }
+    ],
+    "FR": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 212000.0
+      },
+      {
+        "title": "AI Developer",
+        "salary": 161952.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 141796.67
+      },
+      {
+        "title": "AI Programmer",
+        "salary": 120000.0
+      },
+      {
+        "title": "Machine Learning Infrastructure Engineer",
+        "salary": 91772.5
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 74997.57
+      },
+      {
+        "title": "Machine Learning Specialist",
+        "salary": 55000.0
+      },
+      {
+        "title": "Data DevOps Engineer",
+        "salary": 53984.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 52390.5
+      },
+      {
+        "title": "AI Research Engineer",
+        "salary": 30663.0
+      }
+    ],
+    "GB": [
+      {
+        "title": "Analytics Engineering Manager",
+        "salary": 399880.0
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 204900.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 194131.67
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 179784.25
+      },
+      {
+        "title": "Cloud Data Engineer",
+        "salary": 177177.0
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 164504.0
+      },
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 155948.33
+      },
+      {
+        "title": "Big Data Architect",
+        "salary": 153799.0
+      },
+      {
+        "title": "Decision Scientist",
+        "salary": 147648.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 147131.03
+      },
+      {
+        "title": "Head of Data",
+        "salary": 146622.67
+      },
+      {
+        "title": "Machine Learning Infrastructure Engineer",
+        "salary": 122698.5
+      },
+      {
+        "title": "Autonomous Vehicle Technician",
+        "salary": 120000.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 116534.14
+      },
+      {
+        "title": "Data Analytics Lead",
+        "salary": 113812.0
+      },
+      {
+        "title": "Data Operations Analyst",
+        "salary": 110500.0
+      },
+      {
+        "title": "Data Architect",
+        "salary": 101983.2
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 95994.82
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 83450.0
+      },
+      {
+        "title": "Data Modeler",
+        "salary": 83052.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 82001.2
+      },
+      {
+        "title": "AI Research Engineer",
+        "salary": 81206.0
+      },
+      {
+        "title": "Data Product Owner",
+        "salary": 80115.5
+      },
+      {
+        "title": "BI Developer",
+        "salary": 77176.67
+      },
+      {
+        "title": "Machine Learning Research Engineer",
+        "salary": 73824.0
+      },
+      {
+        "title": "ETL Engineer",
+        "salary": 72286.0
+      },
+      {
+        "title": "Data Manager",
+        "salary": 68648.83
+      },
+      {
+        "title": "Data Quality Manager",
+        "salary": 59059.0
+      },
+      {
+        "title": "Business Intelligence Engineer",
+        "salary": 49739.33
+      },
+      {
+        "title": "Business Intelligence Analyst",
+        "salary": 48600.75
+      },
+      {
+        "title": "Insight Analyst",
+        "salary": 46293.5
+      },
+      {
+        "title": "Business Intelligence Developer",
+        "salary": 43064.0
+      },
+      {
+        "title": "Data Quality Analyst",
+        "salary": 43064.0
+      },
+      {
+        "title": "Research Analyst",
+        "salary": 43064.0
+      }
+    ],
+    "GH": [
+      {
+        "title": "Business Data Analyst",
+        "salary": 36000.0
+      }
+    ],
+    "GI": [
+      {
+        "title": "Business Data Analyst",
+        "salary": 79976.0
+      }
+    ],
+    "GR": [
+      {
+        "title": "Data Scientist",
+        "salary": 19434.0
+      }
+    ],
+    "HK": [
+      {
+        "title": "Data Scientist",
+        "salary": 65058.0
+      }
+    ],
+    "HR": [
+      {
+        "title": "Data Analyst",
+        "salary": 92280.0
+      }
+    ],
+    "HU": [
+      {
+        "title": "Analytics Engineer",
+        "salary": 43000.0
+      }
+    ],
+    "IE": [
+      {
+        "title": "Head of Business Intelligence",
+        "salary": 116605.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 107744.8
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 102569.0
+      }
+    ],
+    "IL": [
+      {
+        "title": "AI Scientist",
+        "salary": 417937.0
+      },
+      {
+        "title": "Lead Machine Learning Engineer",
+        "salary": 115000.0
+      }
+    ],
+    "IN": [
+      {
+        "title": "Principal Machine Learning Engineer",
+        "salary": 160000.0
+      },
+      {
+        "title": "AI Product Manager",
+        "salary": 120000.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 72656.25
+      },
+      {
+        "title": "AI Programmer",
+        "salary": 60207.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 39104.8
+      },
+      {
+        "title": "Data Analytics Manager",
+        "salary": 38915.0
+      },
+      {
+        "title": "Data Integration Specialist",
+        "salary": 36483.0
+      },
+      {
+        "title": "NLP Engineer",
+        "salary": 32834.0
+      },
+      {
+        "title": "Machine Learning Software Engineer",
+        "salary": 24322.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 21160.5
+      },
+      {
+        "title": "Applied Data Scientist",
+        "salary": 20673.0
+      },
+      {
+        "title": "Lead Data Analyst",
+        "salary": 18241.0
+      },
+      {
+        "title": "Product Data Analyst",
+        "salary": 16417.0
+      }
+    ],
+    "IT": [
+      {
+        "title": "Data Engineer",
+        "salary": 69005.0
+      },
+      {
+        "title": "NLP Engineer",
+        "salary": 66508.0
+      },
+      {
+        "title": "AI Developer",
+        "salary": 53984.0
+      },
+      {
+        "title": "Research Analyst",
+        "salary": 52079.0
+      },
+      {
+        "title": "Applied Data Scientist",
+        "salary": 29691.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 25912.0
+      }
+    ],
+    "JP": [
+      {
+        "title": "BI Developer",
+        "salary": 160000.0
+      }
+    ],
+    "KE": [
+      {
+        "title": "Applied Data Scientist",
+        "salary": 80000.0
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 50000.0
+      }
+    ],
+    "KR": [
+      {
+        "title": "AI Scientist",
+        "salary": 54000.0
+      },
+      {
+        "title": "AI Programmer",
+        "salary": 40000.0
+      }
+    ],
+    "LT": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 100410.0
+      }
+    ],
+    "LU": [
+      {
+        "title": "Data Scientist",
+        "salary": 21000.0
+      }
+    ],
+    "LV": [
+      {
+        "title": "Data Scientist",
+        "salary": 58788.25
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 58302.5
+      }
+    ],
+    "MX": [
+      {
+        "title": "Data Scientist",
+        "salary": 120000.0
+      },
+      {
+        "title": "Data Manager",
+        "salary": 72000.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 66000.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 36000.0
+      }
+    ],
+    "NG": [
+      {
+        "title": "Analytics Engineer",
+        "salary": 50000.0
+      },
+      {
+        "title": "Finance Data Analyst",
+        "salary": 40000.0
+      },
+      {
+        "title": "Applied Scientist",
+        "salary": 36000.0
+      },
+      {
+        "title": "Compliance Data Analyst",
+        "salary": 30000.0
+      },
+      {
+        "title": "Data Analyst Lead",
+        "salary": 18000.0
+      }
+    ],
+    "NL": [
+      {
+        "title": "Azure Data Engineer",
+        "salary": 100000.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 89073.5
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 86374.0
+      },
+      {
+        "title": "Data DevOps Engineer",
+        "salary": 47918.0
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 37573.0
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 25000.0
+      }
+    ],
+    "NO": [
+      {
+        "title": "Data Scientist",
+        "salary": 88462.0
+      }
+    ],
+    "NZ": [
+      {
+        "title": "Data Scientist",
+        "salary": 164951.5
+      }
+    ],
+    "OM": [
+      {
+        "title": "AI Engineer",
+        "salary": 46848.0
+      }
+    ],
+    "PH": [
+      {
+        "title": "Data Analyst",
+        "salary": 60226.67
+      }
+    ],
+    "PL": [
+      {
+        "title": "Data Analyst",
+        "salary": 95000.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 44876.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 34924.0
+      }
+    ],
+    "PT": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 100000.0
+      },
+      {
+        "title": "Head of Data",
+        "salary": 75577.0
+      },
+      {
+        "title": "Insight Analyst",
+        "salary": 48585.5
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 45886.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 44989.0
+      },
+      {
+        "title": "AI Research Engineer",
+        "salary": 24940.0
+      },
+      {
+        "title": "Data Quality Engineer",
+        "salary": 23753.0
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 21593.0
+      }
+    ],
+    "QA": [
+      {
+        "title": "AI Engineer",
+        "salary": 300000.0
+      }
+    ],
+    "RO": [
+      {
+        "title": "Data Scientist",
+        "salary": 53984.0
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 38868.0
+      }
+    ],
+    "RU": [
+      {
+        "title": "Product Data Analyst",
+        "salary": 57000.0
+      },
+      {
+        "title": "Lead Data Scientist",
+        "salary": 36000.0
+      },
+      {
+        "title": "Business Data Analyst",
+        "salary": 17000.0
+      }
+    ],
+    "SA": [
+      {
+        "title": "Staff Data Analyst",
+        "salary": 179998.0
+      },
+      {
+        "title": "Machine Learning Research Engineer",
+        "salary": 90000.0
+      }
+    ],
+    "SE": [
+      {
+        "title": "Big Data Engineer",
+        "salary": 130000.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 86374.0
+      },
+      {
+        "title": "AI Developer",
+        "salary": 80000.0
+      }
+    ],
+    "SG": [
+      {
+        "title": "Software Data Engineer",
+        "salary": 74883.0
+      },
+      {
+        "title": "Data Analytics Lead",
+        "salary": 17511.0
+      }
+    ],
+    "SI": [
+      {
+        "title": "Data Engineer",
+        "salary": 62081.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 42647.0
+      }
+    ],
+    "TH": [
+      {
+        "title": "Data Scientist",
+        "salary": 26957.0
+      }
+    ],
+    "TR": [
+      {
+        "title": "AI Scientist",
+        "salary": 20000.0
+      },
+      {
+        "title": "BI Analyst",
+        "salary": 18381.0
+      }
+    ],
+    "UA": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 230000.0
+      },
+      {
+        "title": "AI Developer",
+        "salary": 72666.67
+      },
+      {
+        "title": "Machine Learning Researcher",
+        "salary": 50000.0
+      }
+    ],
+    "US": [
+      {
+        "title": "Finance Data Analyst",
+        "salary": 323905.0
+      },
+      {
+        "title": "Head of Machine Learning",
+        "salary": 259000.0
+      },
+      {
+        "title": "AWS Data Architect",
+        "salary": 258000.0
+      },
+      {
+        "title": "Head of Data",
+        "salary": 254078.95
+      },
+      {
+        "title": "AI Architect",
+        "salary": 250328.0
+      },
+      {
+        "title": "Deep Learning Engineer",
+        "salary": 218855.0
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 218435.29
+      },
+      {
+        "title": "Software Data Engineer",
+        "salary": 210000.0
+      },
+      {
+        "title": "Data Infrastructure Engineer",
+        "salary": 201375.42
+      },
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 196613.78
+      },
+      {
+        "title": "Machine Learning Software Engineer",
+        "salary": 195700.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 195667.71
+      },
+      {
+        "title": "NLP Engineer",
+        "salary": 192500.0
+      },
+      {
+        "title": "Applied Scientist",
+        "salary": 190493.47
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 188404.28
+      },
+      {
+        "title": "Machine Learning Infrastructure Engineer",
+        "salary": 186702.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 185285.93
+      },
+      {
+        "title": "Data Operations Engineer",
+        "salary": 184987.5
+      },
+      {
+        "title": "Data Lead",
+        "salary": 184642.86
+      },
+      {
+        "title": "AI Developer",
+        "salary": 182285.71
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 178114.24
+      },
+      {
+        "title": "Applied Machine Learning Engineer",
+        "salary": 177500.0
+      },
+      {
+        "title": "Principal Data Scientist",
+        "salary": 177500.0
+      },
+      {
+        "title": "Machine Learning Modeler",
+        "salary": 173350.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 170517.89
+      },
+      {
+        "title": "Decision Scientist",
+        "salary": 167119.44
+      },
+      {
+        "title": "Prompt Engineer",
+        "salary": 166500.0
+      },
+      {
+        "title": "Data Architect",
+        "salary": 165049.27
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 164692.45
+      },
+      {
+        "title": "Machine Learning Researcher",
+        "salary": 157045.45
+      },
+      {
+        "title": "AI Scientist",
+        "salary": 157000.0
+      },
+      {
+        "title": "Data Product Manager",
+        "salary": 155250.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 155215.07
+      },
+      {
+        "title": "Business Intelligence Engineer",
+        "salary": 153850.19
+      },
+      {
+        "title": "Data Analytics Manager",
+        "salary": 152336.67
+      },
+      {
+        "title": "AI Research Engineer",
+        "salary": 150000.0
+      },
+      {
+        "title": "Business Intelligence Specialist",
+        "salary": 144153.0
+      },
+      {
+        "title": "Cloud Database Engineer",
+        "salary": 141666.67
+      },
+      {
+        "title": "Data Strategy Manager",
+        "salary": 138750.0
+      },
+      {
+        "title": "MLOps Engineer",
+        "salary": 136646.15
+      },
+      {
+        "title": "Data Operations Manager",
+        "salary": 136000.0
+      },
+      {
+        "title": "BI Analyst",
+        "salary": 135659.23
+      },
+      {
+        "title": "Data Modeler",
+        "salary": 135242.31
+      },
+      {
+        "title": "Data Quality Engineer",
+        "salary": 131500.0
+      },
+      {
+        "title": "Machine Learning Manager",
+        "salary": 129562.0
+      },
+      {
+        "title": "Data Integration Engineer",
+        "salary": 127750.0
+      },
+      {
+        "title": "Business Intelligence Manager",
+        "salary": 126750.0
+      },
+      {
+        "title": "Business Intelligence Analyst",
+        "salary": 125761.65
+      },
+      {
+        "title": "Data Visualization Engineer",
+        "salary": 122975.0
+      },
+      {
+        "title": "ETL Developer",
+        "salary": 122460.0
+      },
+      {
+        "title": "Data Visualization Analyst",
+        "salary": 120000.0
+      },
+      {
+        "title": "Business Intelligence Developer",
+        "salary": 119645.36
+      },
+      {
+        "title": "Data Management Specialist",
+        "salary": 116523.25
+      },
+      {
+        "title": "Data Visualization Specialist",
+        "salary": 115860.0
+      },
+      {
+        "title": "BI Developer",
+        "salary": 115850.0
+      },
+      {
+        "title": "Data Manager",
+        "salary": 113240.61
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 112438.63
+      },
+      {
+        "title": "Data Strategist",
+        "salary": 106178.33
+      },
+      {
+        "title": "Research Analyst",
+        "salary": 102201.24
+      },
+      {
+        "title": "Data Developer",
+        "salary": 101242.9
+      },
+      {
+        "title": "Cloud Data Engineer",
+        "salary": 100000.0
+      },
+      {
+        "title": "Data Analytics Lead",
+        "salary": 99960.0
+      },
+      {
+        "title": "Business Intelligence Data Analyst",
+        "salary": 99000.0
+      },
+      {
+        "title": "Business Data Analyst",
+        "salary": 98400.0
+      },
+      {
+        "title": "Data Analytics Specialist",
+        "salary": 95000.0
+      },
+      {
+        "title": "Data Integration Specialist",
+        "salary": 94341.67
+      },
+      {
+        "title": "Financial Data Analyst",
+        "salary": 93250.0
+      },
+      {
+        "title": "Data Specialist",
+        "salary": 90297.22
+      },
+      {
+        "title": "Applied Machine Learning Scientist",
+        "salary": 90000.0
+      },
+      {
+        "title": "Marketing Data Scientist",
+        "salary": 90000.0
+      },
+      {
+        "title": "Data Quality Analyst",
+        "salary": 89898.89
+      },
+      {
+        "title": "Data Operations Analyst",
+        "salary": 86435.0
+      },
+      {
+        "title": "Product Data Analyst",
+        "salary": 83200.0
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 71666.67
+      },
+      {
+        "title": "Data Management Analyst",
+        "salary": 70500.0
+      },
+      {
+        "title": "Lead Data Analyst",
+        "salary": 68000.0
+      },
+      {
+        "title": "BI Data Engineer",
+        "salary": 60000.0
+      },
+      {
+        "title": "Compliance Data Analyst",
+        "salary": 60000.0
+      },
+      {
+        "title": "Data Operations Specialist",
+        "salary": 55355.0
+      }
+    ],
+    "VN": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 63000.0
+      }
+    ],
+    "ZA": [
+      {
+        "title": "Data Engineer",
+        "salary": 100492.5
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 39605.0
+      },
+      {
+        "title": "Machine Learning Software Engineer",
+        "salary": 34482.0
+      }
+    ]
+  },
+  "2024": {
+    "AE": [
+      {
+        "title": "AI Engineer",
+        "salary": 90000.0
+      },
+      {
+        "title": "CRM Data Analyst",
+        "salary": 40000.0
+      }
+    ],
+    "AM": [
+      {
+        "title": "Data Analyst",
+        "salary": 21333.0
+      }
+    ],
+    "AR": [
+      {
+        "title": "Software Engineer",
+        "salary": 200000.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 114687.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 81600.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 64441.67
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 37500.0
+      }
+    ],
+    "AS": [
+      {
+        "title": "Data Analytics Manager",
+        "salary": 27000.0
+      }
+    ],
+    "AT": [
+      {
+        "title": "Data Engineer",
+        "salary": 60369.67
+      }
+    ],
+    "AU": [
+      {
+        "title": "Prompt Engineer",
+        "salary": 207500.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 168000.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 160586.0
+      },
+      {
+        "title": "Data Architect",
+        "salary": 152700.0
+      },
+      {
+        "title": "Software Engineer",
+        "salary": 145500.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 117452.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 100084.67
+      },
+      {
+        "title": "Data Specialist",
+        "salary": 92500.0
+      },
+      {
+        "title": "Business Intelligence Analyst",
+        "salary": 91000.0
+      },
+      {
+        "title": "Business Intelligence",
+        "salary": 72500.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 72253.0
+      }
+    ],
+    "BA": [
+      {
+        "title": "AI Programmer",
+        "salary": 30000.0
+      }
+    ],
+    "BR": [
+      {
+        "title": "Data Analyst",
+        "salary": 70533.33
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 66750.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 66750.0
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 42500.0
+      }
+    ],
+    "CA": [
+      {
+        "title": "AI Architect",
+        "salary": 800000.0
+      },
+      {
+        "title": "Head of Data",
+        "salary": 250000.0
+      },
+      {
+        "title": "AI Programmer",
+        "salary": 232662.5
+      },
+      {
+        "title": "Engineering Manager",
+        "salary": 191000.0
+      },
+      {
+        "title": "Computational Biologist",
+        "salary": 175768.5
+      },
+      {
+        "title": "Data Analytics Manager",
+        "salary": 171000.0
+      },
+      {
+        "title": "Machine Learning Modeler",
+        "salary": 170700.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 168500.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 166848.44
+      },
+      {
+        "title": "Software Engineer",
+        "salary": 162332.52
+      },
+      {
+        "title": "Machine Learning Architect",
+        "salary": 161500.0
+      },
+      {
+        "title": "Applied Scientist",
+        "salary": 159577.38
+      },
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 159124.07
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 151195.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 144103.2
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 140103.16
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 139481.59
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 139100.0
+      },
+      {
+        "title": "Machine Learning Developer",
+        "salary": 137825.0
+      },
+      {
+        "title": "Software Development Engineer",
+        "salary": 137250.0
+      },
+      {
+        "title": "AI Specialist",
+        "salary": 136100.0
+      },
+      {
+        "title": "Data Architect",
+        "salary": 133241.67
+      },
+      {
+        "title": "MLOps Engineer",
+        "salary": 131350.0
+      },
+      {
+        "title": "Data Product Manager",
+        "salary": 130150.0
+      },
+      {
+        "title": "Backend Engineer",
+        "salary": 123750.0
+      },
+      {
+        "title": "Business Intelligence Developer",
+        "salary": 122100.0
+      },
+      {
+        "title": "DevOps Engineer",
+        "salary": 121625.0
+      },
+      {
+        "title": "Site Reliability Engineer",
+        "salary": 120750.0
+      },
+      {
+        "title": "Business Intelligence",
+        "salary": 120107.12
+      },
+      {
+        "title": "Software Developer",
+        "salary": 116025.0
+      },
+      {
+        "title": "Data Visualization Engineer",
+        "salary": 112500.0
+      },
+      {
+        "title": "Data Operations Manager",
+        "salary": 110000.0
+      },
+      {
+        "title": "Robotics Engineer",
+        "salary": 110000.0
+      },
+      {
+        "title": "Data Modeler",
+        "salary": 104900.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 101411.85
+      },
+      {
+        "title": "Business Intelligence Analyst",
+        "salary": 100203.42
+      },
+      {
+        "title": "Data Manager",
+        "salary": 96726.12
+      },
+      {
+        "title": "Research Analyst",
+        "salary": 96426.67
+      },
+      {
+        "title": "Data Specialist",
+        "salary": 94743.0
+      },
+      {
+        "title": "Data Management Analyst",
+        "salary": 92900.0
+      },
+      {
+        "title": "Associate",
+        "salary": 87500.0
+      },
+      {
+        "title": "BI Engineer",
+        "salary": 80769.0
+      },
+      {
+        "title": "Machine Learning Research Engineer",
+        "salary": 80769.0
+      },
+      {
+        "title": "Data Developer",
+        "salary": 79500.0
+      },
+      {
+        "title": "Data Operations Analyst",
+        "salary": 73150.0
+      },
+      {
+        "title": "Data Management Specialist",
+        "salary": 71818.75
+      },
+      {
+        "title": "Statistical Programmer",
+        "salary": 65976.5
+      },
+      {
+        "title": "AI Research Scientist",
+        "salary": 65000.0
+      }
+    ],
+    "CH": [
+      {
+        "title": "Data Scientist",
+        "salary": 226420.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 136363.0
+      }
+    ],
+    "CL": [
+      {
+        "title": "Data Analyst",
+        "salary": 68864.0
+      }
+    ],
+    "DE": [
+      {
+        "title": "Data Engineer",
+        "salary": 206944.33
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 203694.25
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 167804.57
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 138888.5
+      },
+      {
+        "title": "Software Engineer",
+        "salary": 138800.0
+      },
+      {
+        "title": "Data Manager",
+        "salary": 107150.0
+      },
+      {
+        "title": "Lead Data Scientist",
+        "salary": 105555.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 98164.07
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 87809.25
+      },
+      {
+        "title": "AI Research Scientist",
+        "salary": 77777.0
+      },
+      {
+        "title": "Applied Research Scientist",
+        "salary": 66666.0
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 66666.0
+      },
+      {
+        "title": "Data Operations Associate",
+        "salary": 61110.5
+      }
+    ],
+    "DK": [
+      {
+        "title": "AI Software Engineer",
+        "salary": 117647.0
+      }
+    ],
+    "DZ": [
+      {
+        "title": "Admin & Data Analyst",
+        "salary": 100000.0
+      }
+    ],
+    "EE": [
+      {
+        "title": "Data Scientist",
+        "salary": 40000.0
+      }
+    ],
+    "EG": [
+      {
+        "title": "Research Engineer",
+        "salary": 180050.0
+      },
+      {
+        "title": "AI Software Engineer",
+        "salary": 174100.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 158300.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 152650.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 147160.0
+      }
+    ],
+    "ES": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 108027.25
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 71851.33
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 59777.5
+      },
+      {
+        "title": "Data Quality Manager",
+        "salary": 49999.5
+      },
+      {
+        "title": "Admin & Data Analyst",
+        "salary": 42222.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 26110.5
+      }
+    ],
+    "FI": [
+      {
+        "title": "Data Analyst",
+        "salary": 130000.0
+      },
+      {
+        "title": "Lead Machine Learning Engineer",
+        "salary": 77777.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 54444.0
+      }
+    ],
+    "FR": [
+      {
+        "title": "Analytics Engineer",
+        "salary": 188000.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 134380.15
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 112637.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 108860.29
+      },
+      {
+        "title": "AI Developer",
+        "salary": 33333.0
+      }
+    ],
+    "GB": [
+      {
+        "title": "Solutions Engineer",
+        "salary": 227500.0
+      },
+      {
+        "title": "Quantitative Researcher",
+        "salary": 225000.0
+      },
+      {
+        "title": "Data Product Manager",
+        "salary": 178750.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 151562.5
+      },
+      {
+        "title": "Software Engineer",
+        "salary": 142761.8
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 140380.56
+      },
+      {
+        "title": "Solutions Architect",
+        "salary": 136923.0
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 119687.5
+      },
+      {
+        "title": "Data Team Lead",
+        "salary": 111250.0
+      },
+      {
+        "title": "Decision Scientist",
+        "salary": 106250.0
+      },
+      {
+        "title": "Data Architect",
+        "salary": 105444.07
+      },
+      {
+        "title": "Business Intelligence Lead",
+        "salary": 103125.0
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 98279.5
+      },
+      {
+        "title": "Business Intelligence Manager",
+        "salary": 95937.5
+      },
+      {
+        "title": "Research Analyst",
+        "salary": 93750.0
+      },
+      {
+        "title": "Data Management Manager",
+        "salary": 85400.5
+      },
+      {
+        "title": "Data Governance Lead",
+        "salary": 82875.0
+      },
+      {
+        "title": "Data Integration Specialist",
+        "salary": 81250.0
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 79375.0
+      },
+      {
+        "title": "Data Quality Analyst",
+        "salary": 78125.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 70745.83
+      },
+      {
+        "title": "Data Management Lead",
+        "salary": 69728.25
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 67646.7
+      },
+      {
+        "title": "Data Quality Manager",
+        "salary": 65763.5
+      },
+      {
+        "title": "Data Lead",
+        "salary": 65468.75
+      },
+      {
+        "title": "Business Intelligence Analyst",
+        "salary": 63720.27
+      },
+      {
+        "title": "Business Intelligence Developer",
+        "salary": 62500.0
+      },
+      {
+        "title": "Data Developer",
+        "salary": 62500.0
+      },
+      {
+        "title": "Insight Analyst",
+        "salary": 61038.58
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 60588.12
+      },
+      {
+        "title": "Data Manager",
+        "salary": 59982.0
+      },
+      {
+        "title": "BI Developer",
+        "salary": 59028.31
+      },
+      {
+        "title": "BI Analyst",
+        "salary": 57103.0
+      },
+      {
+        "title": "Research Associate",
+        "salary": 53950.0
+      },
+      {
+        "title": "BI Data Analyst",
+        "salary": 50000.0
+      },
+      {
+        "title": "Data Visualization Analyst",
+        "salary": 47500.0
+      },
+      {
+        "title": "Data Specialist",
+        "salary": 47096.21
+      },
+      {
+        "title": "Business Intelligence",
+        "salary": 45104.5
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 42234.0
+      },
+      {
+        "title": "Applied Data Scientist",
+        "salary": 30000.0
+      }
+    ],
+    "GR": [
+      {
+        "title": "Data Scientist",
+        "salary": 66666.0
+      }
+    ],
+    "HU": [
+      {
+        "title": "AI Research Engineer",
+        "salary": 63333.0
+      }
+    ],
+    "IE": [
+      {
+        "title": "BI Engineer",
+        "salary": 135000.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 98277.5
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 97222.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 67221.5
+      }
+    ],
+    "IL": [
+      {
+        "title": "Data Analyst",
+        "salary": 130000.0
+      }
+    ],
+    "IN": [
+      {
+        "title": "AI Engineer",
+        "salary": 125000.0
+      },
+      {
+        "title": "BI Developer",
+        "salary": 87500.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 74500.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 65000.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 48019.0
+      },
+      {
+        "title": "Lead Data Analyst",
+        "salary": 39615.0
+      },
+      {
+        "title": "Manager Data Management",
+        "salary": 36014.0
+      },
+      {
+        "title": "Software Engineer",
+        "salary": 30600.0
+      },
+      {
+        "title": "Big Data Engineer",
+        "salary": 27611.0
+      },
+      {
+        "title": "AI Software Development Engineer",
+        "salary": 25210.0
+      }
+    ],
+    "IT": [
+      {
+        "title": "Data Scientist",
+        "salary": 154050.0
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 44444.0
+      }
+    ],
+    "KE": [
+      {
+        "title": "Data Scientist",
+        "salary": 50000.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 20000.0
+      }
+    ],
+    "KR": [
+      {
+        "title": "Data Scientist",
+        "salary": 96352.0
+      }
+    ],
+    "LB": [
+      {
+        "title": "Data Quality Analyst",
+        "salary": 71750.0
+      }
+    ],
+    "LT": [
+      {
+        "title": "Data Infrastructure Engineer",
+        "salary": 106000.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 103333.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 72055.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 55333.0
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 39999.5
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 35265.0
+      }
+    ],
+    "LU": [
+      {
+        "title": "AI Engineer",
+        "salary": 55555.0
+      }
+    ],
+    "LV": [
+      {
+        "title": "Data Engineer",
+        "salary": 73333.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 62966.5
+      },
+      {
+        "title": "Business Intelligence Engineer",
+        "salary": 41999.5
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 39333.0
+      }
+    ],
+    "MT": [
+      {
+        "title": "Software Engineer",
+        "salary": 79750.0
+      },
+      {
+        "title": "Data Analytics Specialist",
+        "salary": 61450.0
+      }
+    ],
+    "MX": [
+      {
+        "title": "Data Analyst",
+        "salary": 429950.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 136782.67
+      },
+      {
+        "title": "Business Intelligence Developer",
+        "salary": 37500.0
+      },
+      {
+        "title": "Insight Analyst",
+        "salary": 37500.0
+      },
+      {
+        "title": "Big Data Engineer",
+        "salary": 17600.0
+      }
+    ],
+    "NL": [
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 99999.5
+      },
+      {
+        "title": "AI Researcher",
+        "salary": 78333.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 75030.5
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 69105.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 65684.67
+      }
+    ],
+    "NZ": [
+      {
+        "title": "Data Governance Analyst",
+        "salary": 158175.0
+      },
+      {
+        "title": "Data Architect",
+        "salary": 153093.5
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 144000.0
+      },
+      {
+        "title": "Data Analyst Lead",
+        "salary": 125000.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 81884.0
+      }
+    ],
+    "PH": [
+      {
+        "title": "BI Developer",
+        "salary": 31800.0
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 16000.0
+      }
+    ],
+    "PL": [
+      {
+        "title": "Applied Scientist",
+        "salary": 182000.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 116050.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 88888.5
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 54000.0
+      },
+      {
+        "title": "Data Quality Analyst",
+        "salary": 20700.0
+      }
+    ],
+    "PT": [
+      {
+        "title": "Data Scientist",
+        "salary": 88888.25
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 58333.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 33888.0
+      }
+    ],
+    "RO": [
+      {
+        "title": "Data Governance Manager",
+        "salary": 56000.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 26000.0
+      }
+    ],
+    "RS": [
+      {
+        "title": "Data Analyst",
+        "salary": 51000.0
+      }
+    ],
+    "SA": [
+      {
+        "title": "AI Research Scientist",
+        "salary": 150000.0
+      }
+    ],
+    "SE": [
+      {
+        "title": "Lead AI Engineer",
+        "salary": 91262.0
+      }
+    ],
+    "SK": [
+      {
+        "title": "Head of Data",
+        "salary": 225000.0
+      }
+    ],
+    "TR": [
+      {
+        "title": "Data Analyst",
+        "salary": 81933.25
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 39926.5
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 24427.5
+      }
+    ],
+    "UA": [
+      {
+        "title": "Data Scientist",
+        "salary": 85000.0
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 84500.0
+      }
+    ],
+    "US": [
+      {
+        "title": "Machine Learning Developer",
+        "salary": 394000.0
+      },
+      {
+        "title": "Head of Machine Learning",
+        "salary": 334000.0
+      },
+      {
+        "title": "Engineering Manager",
+        "salary": 297578.57
+      },
+      {
+        "title": "Head of AI",
+        "salary": 257250.0
+      },
+      {
+        "title": "Machine Learning Model Engineer",
+        "salary": 255000.0
+      },
+      {
+        "title": "Machine Learning Manager",
+        "salary": 245783.33
+      },
+      {
+        "title": "AI Specialist",
+        "salary": 232600.0
+      },
+      {
+        "title": "Head of Data",
+        "salary": 231981.05
+      },
+      {
+        "title": "Prompt Engineer",
+        "salary": 230562.72
+      },
+      {
+        "title": "Machine Learning Infrastructure Engineer",
+        "salary": 224240.0
+      },
+      {
+        "title": "ML Infrastructure Engineer",
+        "salary": 217550.0
+      },
+      {
+        "title": "AI Architect",
+        "salary": 215698.94
+      },
+      {
+        "title": "Machine Learning Platform Engineer",
+        "salary": 215365.0
+      },
+      {
+        "title": "Data Infrastructure Engineer",
+        "salary": 210317.78
+      },
+      {
+        "title": "Technical Lead",
+        "salary": 207750.0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "salary": 206177.38
+      },
+      {
+        "title": "Software Development Engineer",
+        "salary": 205823.75
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 202158.86
+      },
+      {
+        "title": "AI Solution Architect",
+        "salary": 201993.0
+      },
+      {
+        "title": "Research Scientist",
+        "salary": 200764.27
+      },
+      {
+        "title": "AI Research Engineer",
+        "salary": 200000.0
+      },
+      {
+        "title": "Robotics Software Engineer",
+        "salary": 198750.0
+      },
+      {
+        "title": "Backend Engineer",
+        "salary": 196248.25
+      },
+      {
+        "title": "Software Engineer",
+        "salary": 194977.5
+      },
+      {
+        "title": "AI Researcher",
+        "salary": 194450.0
+      },
+      {
+        "title": "Machine Learning Modeler",
+        "salary": 192200.0
+      },
+      {
+        "title": "Machine Learning Scientist",
+        "salary": 190996.05
+      },
+      {
+        "title": "Applied Scientist",
+        "salary": 189429.13
+      },
+      {
+        "title": "Computer Vision Engineer",
+        "salary": 187743.68
+      },
+      {
+        "title": "Director of Business Intelligence",
+        "salary": 187500.0
+      },
+      {
+        "title": "Machine Learning Researcher",
+        "salary": 187433.33
+      },
+      {
+        "title": "Site Reliability Engineer",
+        "salary": 186123.04
+      },
+      {
+        "title": "Solutions Architect",
+        "salary": 182717.94
+      },
+      {
+        "title": "Frontend Engineer",
+        "salary": 182593.75
+      },
+      {
+        "title": "AI Developer",
+        "salary": 180863.8
+      },
+      {
+        "title": "MLOps Engineer",
+        "salary": 179560.29
+      },
+      {
+        "title": "Data Analytics Lead",
+        "salary": 178610.89
+      },
+      {
+        "title": "Computational Biologist",
+        "salary": 173525.0
+      },
+      {
+        "title": "Data Pipeline Engineer",
+        "salary": 172500.0
+      },
+      {
+        "title": "Data Analytics Team Lead",
+        "salary": 170000.0
+      },
+      {
+        "title": "AI Scientist",
+        "salary": 168870.0
+      },
+      {
+        "title": "Data Governance Engineer",
+        "salary": 167987.5
+      },
+      {
+        "title": "DataOps Engineer",
+        "salary": 167500.0
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 167375.36
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 167009.04
+      },
+      {
+        "title": "Principal Statistical Programmer",
+        "salary": 165091.67
+      },
+      {
+        "title": "Machine Learning Quality Engineer",
+        "salary": 164333.33
+      },
+      {
+        "title": "AI Product Manager",
+        "salary": 163850.0
+      },
+      {
+        "title": "Analytics Engineer",
+        "salary": 163032.16
+      },
+      {
+        "title": "Data Architect",
+        "salary": 162943.78
+      },
+      {
+        "title": "Machine Learning Specialist",
+        "salary": 160000.0
+      },
+      {
+        "title": "NLP Engineer",
+        "salary": 159716.67
+      },
+      {
+        "title": "AI Software Engineer",
+        "salary": 159265.75
+      },
+      {
+        "title": "Statistical Programmer",
+        "salary": 158787.5
+      },
+      {
+        "title": "Business Intelligence Manager",
+        "salary": 157611.11
+      },
+      {
+        "title": "Data Engineer",
+        "salary": 156305.02
+      },
+      {
+        "title": "Data Governance Lead",
+        "salary": 154707.88
+      },
+      {
+        "title": "Full Stack Engineer",
+        "salary": 153000.0
+      },
+      {
+        "title": "Data Product Manager",
+        "salary": 152707.09
+      },
+      {
+        "title": "Cloud Database Engineer",
+        "salary": 151583.33
+      },
+      {
+        "title": "Data Operations Manager",
+        "salary": 150675.0
+      },
+      {
+        "title": "SAS Developer",
+        "salary": 149409.0
+      },
+      {
+        "title": "Systems Engineer",
+        "salary": 148391.73
+      },
+      {
+        "title": "Business Intelligence",
+        "salary": 147836.9
+      },
+      {
+        "title": "Robotics Engineer",
+        "salary": 146660.18
+      },
+      {
+        "title": "Data Strategist",
+        "salary": 144322.94
+      },
+      {
+        "title": "Data Governance Analyst",
+        "salary": 141791.5
+      },
+      {
+        "title": "Data Integration Developer",
+        "salary": 140580.75
+      },
+      {
+        "title": "Data Lead",
+        "salary": 140380.15
+      },
+      {
+        "title": "Platform Engineer",
+        "salary": 139361.11
+      },
+      {
+        "title": "Data Management Manager",
+        "salary": 138800.0
+      },
+      {
+        "title": "Data Analytics Manager",
+        "salary": 138357.98
+      },
+      {
+        "title": "Software Developer",
+        "salary": 137954.87
+      },
+      {
+        "title": "Data Quality Manager",
+        "salary": 137925.38
+      },
+      {
+        "title": "Data Modeler",
+        "salary": 136590.34
+      },
+      {
+        "title": "Data Integration Engineer",
+        "salary": 134939.0
+      },
+      {
+        "title": "Cloud Database Administrator",
+        "salary": 134700.0
+      },
+      {
+        "title": "ETL Developer",
+        "salary": 133850.0
+      },
+      {
+        "title": "DevOps Engineer",
+        "salary": 132429.31
+      },
+      {
+        "title": "Data Product Owner",
+        "salary": 132269.81
+      },
+      {
+        "title": "Solutions Engineer",
+        "salary": 132139.06
+      },
+      {
+        "title": "Associate",
+        "salary": 131772.0
+      },
+      {
+        "title": "Data Quality Specialist",
+        "salary": 130493.0
+      },
+      {
+        "title": "Decision Scientist",
+        "salary": 130130.27
+      },
+      {
+        "title": "Data Analytics Specialist",
+        "salary": 129184.93
+      },
+      {
+        "title": "Business Intelligence Lead",
+        "salary": 129122.25
+      },
+      {
+        "title": "Research Analyst",
+        "salary": 128800.9
+      },
+      {
+        "title": "Business Intelligence Engineer",
+        "salary": 127712.34
+      },
+      {
+        "title": "Data Team Lead",
+        "salary": 126612.5
+      },
+      {
+        "title": "Data Governance Manager",
+        "salary": 124000.0
+      },
+      {
+        "title": "Business Analyst",
+        "salary": 122643.88
+      },
+      {
+        "title": "Business Intelligence Specialist",
+        "salary": 122339.0
+      },
+      {
+        "title": "Data Visualization Analyst",
+        "salary": 121939.33
+      },
+      {
+        "title": "Data Quality Analyst",
+        "salary": 121556.73
+      },
+      {
+        "title": "Python Developer",
+        "salary": 121300.0
+      },
+      {
+        "title": "Data Governance Specialist",
+        "salary": 120427.5
+      },
+      {
+        "title": "Data Quality Engineer",
+        "salary": 120242.86
+      },
+      {
+        "title": "Data Strategy Lead",
+        "salary": 120000.0
+      },
+      {
+        "title": "ETL Engineer",
+        "salary": 118980.0
+      },
+      {
+        "title": "Business Intelligence Analyst",
+        "salary": 117087.21
+      },
+      {
+        "title": "Data Visualization Engineer",
+        "salary": 117075.0
+      },
+      {
+        "title": "Big Data Developer",
+        "salary": 117000.0
+      },
+      {
+        "title": "Data Developer",
+        "salary": 115208.0
+      },
+      {
+        "title": "Business Intelligence Developer",
+        "salary": 114559.35
+      },
+      {
+        "title": "BI Analyst",
+        "salary": 112804.12
+      },
+      {
+        "title": "Data Analyst",
+        "salary": 112495.47
+      },
+      {
+        "title": "Data Operations Engineer",
+        "salary": 111502.5
+      },
+      {
+        "title": "BI Developer",
+        "salary": 111435.88
+      },
+      {
+        "title": "Data Visualization Specialist",
+        "salary": 110089.09
+      },
+      {
+        "title": "Data Analytics Associate",
+        "salary": 110000.0
+      },
+      {
+        "title": "Business Intelligence Consultant",
+        "salary": 109500.0
+      },
+      {
+        "title": "Data Manager",
+        "salary": 106948.38
+      },
+      {
+        "title": "Data Management Specialist",
+        "salary": 106831.25
+      },
+      {
+        "title": "Data Integration Specialist",
+        "salary": 106187.5
+      },
+      {
+        "title": "Data Management Analyst",
+        "salary": 104762.18
+      },
+      {
+        "title": "Data Integration Analyst",
+        "salary": 98700.0
+      },
+      {
+        "title": "Data Management Associate",
+        "salary": 96500.0
+      },
+      {
+        "title": "Admin & Data Analyst",
+        "salary": 95000.0
+      },
+      {
+        "title": "Data Operations Specialist",
+        "salary": 94620.0
+      },
+      {
+        "title": "Data Management Consultant",
+        "salary": 92024.0
+      },
+      {
+        "title": "Data Operations Analyst",
+        "salary": 90770.0
+      },
+      {
+        "title": "Data Operations Associate",
+        "salary": 90421.88
+      },
+      {
+        "title": "Data Specialist",
+        "salary": 90353.61
+      },
+      {
+        "title": "Data Analytics Consultant",
+        "salary": 88892.75
+      },
+      {
+        "title": "Artificial Intelligence Engineer",
+        "salary": 88500.0
+      },
+      {
+        "title": "Data Management Lead",
+        "salary": 86500.0
+      },
+      {
+        "title": "Master Data Specialist",
+        "salary": 83000.0
+      },
+      {
+        "title": "Insight Analyst",
+        "salary": 80785.17
+      },
+      {
+        "title": "Data Visualization Developer",
+        "salary": 80000.0
+      },
+      {
+        "title": "Encounter Data Management Professional",
+        "salary": 71816.67
+      },
+      {
+        "title": "Data Integration Coordinator",
+        "salary": 67500.0
+      },
+      {
+        "title": "Data Reporting Analyst",
+        "salary": 66490.75
+      },
+      {
+        "title": "Research Associate",
+        "salary": 64975.0
+      },
+      {
+        "title": "AI Data Scientist",
+        "salary": 60000.0
+      },
+      {
+        "title": "Quantitative Research Analyst",
+        "salary": 51000.0
+      },
+      {
+        "title": "Consultant Data Engineer",
+        "salary": 50000.0
+      }
+    ],
+    "VE": [
+      {
+        "title": "Associate",
+        "salary": 192500.0
+      }
+    ],
+    "ZA": [
+      {
+        "title": "Data Engineer",
+        "salary": 125615.0
+      },
+      {
+        "title": "Research Engineer",
+        "salary": 62487.0
+      },
+      {
+        "title": "Business Intelligence Analyst",
+        "salary": 55225.0
+      },
+      {
+        "title": "AI Engineer",
+        "salary": 53475.5
+      },
+      {
+        "title": "Data Architect",
+        "salary": 47286.5
+      },
+      {
+        "title": "Data Scientist",
+        "salary": 44871.75
+      },
+      {
+        "title": "Data Manager",
+        "salary": 36345.75
+      }
+    ]
+  }
+}
