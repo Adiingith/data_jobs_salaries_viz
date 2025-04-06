@@ -5,6 +5,7 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Radial Job Salary Visualization</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://d3js.org/d3.v7.min.js">
 function rotateLabelTowardCenter(x, y, cx, cy) {
     const dx = x - cx;
@@ -143,7 +144,25 @@ function rotateLabelTowardCenter(x, y, cx, cy) {
 }
 
 .visualization-info {
-  top: 80px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: calc(var(--base-spacing) * 0.5);
+  background: rgba(255, 255, 255, 0.15);
+  text-align: center;
+  pointer-events: none;
+  width: 90%;
+  max-width: 600px;
+  line-height: 1.6;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  top: 120px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .legend {
@@ -151,11 +170,11 @@ function rotateLabelTowardCenter(x, y, cx, cy) {
   top: 20px;
   right: 20px;
   background: rgba(255, 255, 255, 0.95);
-  padding: calc(var(--base-spacing) * 0.625);
-  font-size: calc(var(--base-font-size) * 0.625);
+  padding: calc(var(--base-spacing) * 0.8);
+  font-size: calc(var(--base-font-size) * 0.85);
   line-height: 1.4;
   text-align: left;
-  max-width: 200px;
+  max-width: 270px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -163,13 +182,13 @@ function rotateLabelTowardCenter(x, y, cx, cy) {
 .legend-item {
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .legend-color {
-  width: 12px;
-  height: 12px;
-  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
   border-radius: 50%;
 }
 
@@ -240,8 +259,8 @@ function rotateLabelTowardCenter(x, y, cx, cy) {
     top: 40px;
     right: 5px;
     margin: 0;
-    max-width: 120px;
-    font-size: calc(var(--base-font-size) * 0.45);
+    max-width: 160px;
+    font-size: calc(var(--base-font-size) * 0.6);
     padding: calc(var(--base-spacing) * 0.4);
   }
 
@@ -304,6 +323,13 @@ function rotateLabelTowardCenter(x, y, cx, cy) {
     height: -webkit-fill-available;
   }
 }
+
+.node circle {
+  transition: all 0.3s ease;
+}
+.node:hover circle {
+  filter: brightness(1.2);
+}
 </style>
 </head>
 <body>
@@ -329,8 +355,11 @@ function rotateLabelTowardCenter(x, y, cx, cy) {
             <span>Years (2020-2024)</span>
         </div>
         <div class="legend-item">
-            <div class="legend-color" style="background: rgba(255,255,255,0.7);"></div>
-            <span>Navigation Arrows (⮌ ⮎)</span>
+            <div class="legend-color" style="background: rgba(247, 228, 99, 0.3);"></div>
+            <span>Salary Pages (⮌ Previous | Next ⮎)</span>
+        </div>
+        <div class="legend-item" style="margin-top: 10px; font-style: italic; font-size: 0.9em;">
+            <span id="currentSelectionInfo"></span>
         </div>
     </div>
 </div>
@@ -550,7 +579,7 @@ const arrowFill = "#ff9900";
 
 // 设置箭头控制圆圈颜色和大小
 const arrowControlRadius = 22;
-const arrowControlColor = "rgba(255,255,255,0.7)";  // 白色透明
+const arrowControlColor = "rgba(247, 228, 99, 0.3)";  // 调整透明度为0.3
 
 // 圆心位置
 const year2020Pos = { x: centerX, y: centerY + (-2 * 75) };
@@ -687,7 +716,8 @@ function updateLinkColors() {
   // 先将所有连接线重置为灰色和低透明度
   d3.selectAll(".link")
     .attr("stroke", "#555555")
-    .style("opacity", 0.15);
+    .style("opacity", 0.15)
+    .attr("stroke-width", 1);  // 添加默认线宽
   
   // 1. 高亮被选中国家到年份的连接线（淡粉色）
   d3.selectAll(".link")
@@ -697,7 +727,8 @@ function updateLinkColors() {
       return type === "country-link" && country === selectedCountry;
     })
     .attr("stroke", "#ffb6c1")  // 淡粉色 (LightPink)
-    .style("opacity", 1);  // 保持选中的线不变
+    .style("opacity", 1)  // 保持选中的线不变
+    .attr("stroke-width", 2);  // 加粗选中的线
   
   // 2. 高亮被选中年份到职位的连接线（淡粉色）
   d3.selectAll(".link")
@@ -707,7 +738,8 @@ function updateLinkColors() {
       return type === "job-link" && year === selectedYear;
     })
     .attr("stroke", "#ffb6c1")  // 淡粉色 (LightPink)
-    .style("opacity", 1);  // 保持选中的线不变
+    .style("opacity", 1)  // 保持选中的线不变
+    .attr("stroke-width", 2);  // 加粗选中的线
 }
 
 function updateNodeHighlights() {
@@ -715,7 +747,9 @@ function updateNodeHighlights() {
   d3.selectAll(".node circle")
     .classed("selected", false)
     .attr("stroke", function() { return d3.select(this).attr("data-original-stroke") || "none"; })
-    .attr("stroke-width", function() { return d3.select(this).attr("data-original-stroke-width") || 1.2; });
+    .attr("stroke-width", function() { return d3.select(this).attr("data-original-stroke-width") || 1.2; })
+    .style("filter", "none")
+    .attr("opacity", 0.3);
 
   // 高亮被选中的国家
   d3.selectAll(".node.country")
@@ -723,10 +757,12 @@ function updateNodeHighlights() {
     .select("circle")
     .each(function() {
       const circle = d3.select(this);
-      const fill = circle.attr("fill");
       circle
-        .attr("stroke", fill)
-        .attr("stroke-width", 3);
+        .attr("stroke", "#90EE90")  // 使用国家节点的绿色
+        .attr("stroke-width", 1.5)
+        .attr("opacity", 0.8)
+        .style("filter", "drop-shadow(0 0 6px rgba(144, 238, 144, 0.8))")
+        .style("cursor", "pointer");
     });
 
   // 高亮被选中的年份
@@ -735,11 +771,16 @@ function updateNodeHighlights() {
     .select("circle")
     .each(function() {
       const circle = d3.select(this);
-      const fill = circle.attr("fill");
       circle
-        .attr("stroke", fill)
-        .attr("stroke-width", 3);
+        .attr("stroke", "#a88fdd")  // 使用年份节点的紫色
+        .attr("stroke-width", 1.5)
+        .attr("opacity", 0.8)
+        .style("filter", "drop-shadow(0 0 6px rgba(168, 143, 221, 0.8))")
+        .style("cursor", "pointer");
     });
+
+  // 更新legend信息
+  updateLegendInfo();
 }
 
 // === 事件监听器绑定 ===
@@ -883,6 +924,9 @@ Promise.all([
   updateLinkColors();
   updateNodeHighlights();
   updateSalaryInfo();
+
+  // 初始化完成后更新legend信息
+  updateLegendInfo();
 }).catch(function(error) {
   console.error("Error loading the data:", error);
 });
@@ -1226,6 +1270,9 @@ function showJobDetails(jobTitle) {
     return;
   }
 
+  // 首先添加职位标题和其他信息
+  let html = `<div class="job-modal-title">${jobInfo.job_title}</div>`;
+  
   const sections = [
     { key: 'Role_Summary', title: 'Role Summary' },
     { key: 'Key_Responsibilities', title: 'Key Responsibilities' },
@@ -1234,8 +1281,6 @@ function showJobDetails(jobTitle) {
     { key: 'Career_Path', title: 'Career Path' }
   ];
 
-  let html = `<div class="job-modal-title">${jobInfo.job_title}</div>`;
-  
   sections.forEach(section => {
     if (jobInfo[section.key]) {
       html += `
@@ -1247,8 +1292,106 @@ function showJobDetails(jobTitle) {
     }
   });
 
+  // 最后添加薪资趋势图
+  html += `
+    <div style="border-top: 1px solid #eee; margin: 10px 0;"></div>
+    <div class="job-modal-section" style="margin-bottom: 10px;">
+      <div class="job-modal-section-title" style="margin-bottom: 5px;">Salary Trend (2020-2024)</div>
+      <div id="salaryTrendChart"></div>
+    </div>
+  `;
+
   content.innerHTML = html;
   modal.style.display = 'block';
+
+  // 绘制薪资趋势图
+  drawSalaryTrendChart(jobTitle, selectedCountry);
+}
+
+// 获取岗位薪资数据的函数
+function getJobSalaryData(jobTitle, country) {
+  const years = ["2020", "2021", "2022", "2023", "2024"];
+  return years.map(year => {
+    const yearData = jobDataFull[year]?.[country] || [];
+    const jobData = yearData.find(job => job.title === jobTitle);
+    return {
+      year: year,
+      salary: jobData ? jobData.salary : 0
+    };
+  });
+}
+
+// 绘制薪资趋势图的函数
+function drawSalaryTrendChart(jobTitle, country) {
+  const data = getJobSalaryData(jobTitle, country);
+  
+  // 设置图表尺寸和边距，减小整体尺寸
+  const margin = {top: 20, right: 20, bottom: 30, left: 50};
+  const width = 500 - margin.left - margin.right;  // 从500减小到400
+  const height = 300 - margin.top - margin.bottom;  // 从300减小到200
+
+  // 清除现有的图表
+  d3.select("#salaryTrendChart").selectAll("*").remove();
+
+  // 创建SVG容器
+  const svg = d3.select("#salaryTrendChart")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
+
+  // 创建比例尺
+  const x = d3.scalePoint()
+    .domain(data.map(d => d.year))
+    .range([0, width]);
+
+  const y = d3.scaleLinear()
+    .domain([0, d3.max(data, d => d.salary) * 1.1])
+    .range([height, 0]);
+
+  // 创建线条生成器
+  const line = d3.line()
+    .x(d => x(d.year))
+    .y(d => y(d.salary))
+    .curve(d3.curveMonotoneX);
+
+  // 添加X轴
+  svg.append("g")
+    .attr("transform", `translate(0,${height})`)
+    .call(d3.axisBottom(x));
+
+  // 添加Y轴
+  svg.append("g")
+    .call(d3.axisLeft(y)
+      .ticks(5)
+      .tickFormat(d => `$${d/1000}k`));
+
+  // 添加折线
+  svg.append("path")
+    .datum(data)
+    .attr("fill", "none")
+    .attr("stroke", "#90EE90")
+    .attr("stroke-width", 1)  // 从2减小到1
+    .attr("d", line);
+
+  // 添加数据点
+  svg.selectAll(".dot")
+    .data(data)
+    .enter().append("circle")
+    .attr("class", "dot")
+    .attr("cx", d => x(d.year))
+    .attr("cy", d => y(d.salary))
+    .attr("r", 3)  // 从4减小到3，让数据点也相应变小一些
+    .attr("fill", "#90EE90");
+
+  // 添加标题
+  svg.append("text")
+    .attr("x", width / 2)
+    .attr("y", -margin.top / 2)
+    .attr("text-anchor", "middle")
+    .style("font-size", "14px")
+    .text(`${jobTitle} - ${countryNames[country]}`);
 }
 
 // 添加点击弹窗外部关闭弹窗的功能
@@ -1260,6 +1403,14 @@ window.onclick = function(event) {
   if (event.target === modal || (!modalContent.contains(event.target) && event.target !== modalContent)) {
     modal.style.display = 'none';
   }
+}
+
+// 添加更新legend说明的函数
+function updateLegendInfo() {
+    const infoElement = document.getElementById('currentSelectionInfo');
+    if (infoElement) {
+        infoElement.innerHTML = `Currently showing job salaries in <strong>${countryNames[selectedCountry]}</strong> for <strong>${selectedYear}</strong>`;
+    }
 }
 </script>
 </body>
