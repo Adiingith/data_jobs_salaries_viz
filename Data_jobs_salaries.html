@@ -7,6 +7,7 @@
 <title>Radial Job Salary Visualization</title>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://d3js.org/d3.v7.min.js">
+// Helper function to calculate label rotation angle
 function rotateLabelTowardCenter(x, y, cx, cy) {
     const dx = x - cx;
     const dy = y - cy;
@@ -356,7 +357,7 @@ function rotateLabelTowardCenter(x, y, cx, cy) {
         </div>
         <div class="legend-item">
             <div class="legend-color" style="background: rgba(247, 228, 99, 0.3);"></div>
-            <span>Salary Pages (⮌ Previous | Next ⮎)</span>
+            <span>Salary Pages (← Previous | Next →)</span>
         </div>
         <div class="legend-item" style="margin-top: 10px; font-style: italic; font-size: 0.9em;">
             <span id="currentSelectionInfo"></span>
@@ -368,15 +369,17 @@ function rotateLabelTowardCenter(x, y, cx, cy) {
   <div class="job-modal-content"></div>
 </div>
 <script>
+// Core visualization parameters
 const svg = d3.select("#visualization");
 const centerX = 500, centerY = 350;
 const radiusJob = 320;
 const radiusCountry = 320;
 
+// Data arrays for years and countries
 const years = ["2020", "2021", "2022", "2023", "2024"];
 const countries = ["US", "GB", "IN", "DE", "FR", "AU", "ES", "NL", "BR", "CA"];
 
-// === 初始化变量 ===
+// State variables for visualization
 let selectedCountry = "GB";
 let selectedYear = "2024";
 let currentYearIndex = years.indexOf(selectedYear);
@@ -386,9 +389,10 @@ let jobDataFull = {};
 const jobsPerPage = 10;
 let jobNodes;
 let jobAngles;
-let currentJobs = [];  // 用于存储当前显示的职位数据
+let currentJobs = [];
 let jobDescriptions = {};
 
+// Convert polar coordinates to cartesian for node positioning
 function polarToCartesian(cx, cy, radius, angle) {
   const rad = (angle - 90) * Math.PI / 180;
   return {
@@ -397,9 +401,10 @@ function polarToCartesian(cx, cy, radius, angle) {
   };
 }
 
-// COUNTRIES: bottom half
+// Scale for country node positioning
 const countryAngles = d3.scalePoint().domain(countries).range([150, 30]);
 
+// Full country names mapping
 const countryNames = {
   "US": "United States",
   "GB": "Great Britain",
@@ -420,8 +425,6 @@ const countryNodes = svg.selectAll(".country")
   .attr("class", "node country")
   .attr("transform", d => {
     const pos = polarToCartesian(centerX, centerY, radiusCountry, countryAngles(d));
-
-
     return `translate(${pos.x}, ${pos.y})`;
   });
 
@@ -435,7 +438,6 @@ countryNodes.append("circle")
   .attr("data-original-stroke", "#90EE90")
   .attr("data-original-stroke-width", 1);
 
-// 修改 Country 标签的旋转逻辑
 countryNodes.append("text")
   .attr("fill", "#444")
   .attr("font-size", "8px")
@@ -450,11 +452,6 @@ countryNodes.append("text")
   })
   .text(d => countryNames[d] || d);
 
-
-
-
-// YEARS: center
-// 年份节点显示用的颜色映射
 const yearColors = {
   "2020": "#a88fdd",
   "2021": "#a88fdd",
@@ -463,7 +460,7 @@ const yearColors = {
   "2024": "#a88fdd"
 };
 
-// 背景圆圈使用的颜色映射
+// Background circle colors for each year
 const backgroundYearColors = {
   "2020": "#f7e463",
   "2021": "#fdb567",
@@ -472,25 +469,21 @@ const backgroundYearColors = {
   "2024": "#91d3a2"
 };
 
-// 获取交互节点的保护区域
+// Protected zones for node interaction
 let protectedZones = [];
 
-// 判断是否在排除区域（弧形 + 中轴）
+// Check if a point is in the excluded region
 function isInExcludedRegion(x, y) {
   const dx = x - centerX;
   const dy = y - centerY;
   const dist = Math.sqrt(dx * dx + dy * dy);
   const angle = Math.atan2(dy, dx) * 180 / Math.PI;
   const angleDeg = (angle + 360) % 360;
-
-  // 主要可视化区域半径
   const visualizationRadius = 380;
-  
-  // 检查是否在主要可视化区域内
   return dist < visualizationRadius;
 }
 
-// 更新保护区域
+// Update protected zones for node interaction
 function updateProtectedZones() {
   protectedZones = [];
   d3.selectAll(".node").each(function() {
@@ -499,37 +492,37 @@ function updateProtectedZones() {
     if (match) {
       const x = +match[1];
       const y = +match[2];
-      protectedZones.push({ x, y, r: 35 }); // 半径缓冲区
+      protectedZones.push({ x, y, r: 35 });
     }
   });
 }
 
-// 判断是否与节点区域重叠
+// Check if a point overlaps with protected zones
 function isOverlappingProtectedZone(x, y) {
   return protectedZones.some(zone => {
     const dx = x - zone.x;
     const dy = y - zone.y;
     const dist = Math.sqrt(dx * dx + dy * dy);
-    return dist < zone.r + 10;  // background radius buffer
+    return dist < zone.r + 10;
   });
 }
 
+// Generate valid position for background circles
 function generateValidPosition() {
   let x, y;
   do {
     x = Math.random() * 1000;
     y = Math.random() * 700;
   } while (isInExcludedRegion(x, y));
-  
   return { x, y };
 }
 
-// 修改生成背景圆圈的函数
+// Generate background decorative circles
 function generateBackgroundCircles() {
   const backgroundColors = Object.values(backgroundYearColors);
-  updateProtectedZones(); // 确保在生成背景圆圈前更新保护区域
+  updateProtectedZones();
 
-  // 生成小圆圈
+  // Generate small circles
   for (let i = 0; i < 300; i++) {
     const pos = generateValidPosition();
     const color = backgroundColors[Math.floor(Math.random() * backgroundColors.length)];
@@ -547,7 +540,7 @@ function generateBackgroundCircles() {
     }
   }
 
-  // 生成大圆圈
+  // Generate large circles
   for (let i = 0; i < 30; i++) {
     const pos = generateValidPosition();
     const color = backgroundColors[Math.floor(Math.random() * backgroundColors.length)];
@@ -566,26 +559,19 @@ function generateBackgroundCircles() {
   }
 }
 
-// 背景圆圈重绘函数
 function regenerateBackgroundCircles() {
   updateProtectedZones();
   svg.selectAll(".bg-circle").remove();
   generateBackgroundCircles();
 }
 
-// Add left and right toggle circles
 const arrowRadius = 24;
 const arrowFill = "#ff9900";
-
-// 设置箭头控制圆圈颜色和大小
 const arrowControlRadius = 22;
-const arrowControlColor = "rgba(247, 228, 99, 0.3)";  // 调整透明度为0.3
-
-// 圆心位置
+const arrowControlColor = "rgba(247, 228, 99, 0.3)";
 const year2020Pos = { x: centerX, y: centerY + (-2 * 75) };
 const yearRadius = 20;
 
-// 左箭头圆圈（350°）
 const leftArrowPos = polarToCartesian(centerX, centerY, radiusJob, 350);
 const arrowLeft = svg.append("g")
   .attr("class", "arrow-control left")
@@ -604,7 +590,7 @@ arrowLeft.append("text")
   .attr("dy", "0.35em")
   .attr("fill", "black")
   .attr("font-size", "22px")
-  .text("⮌");  // 圆弧箭头左
+  .text("←");
 
 arrowLeft.on("click", () => {
   if (jobPageIndex === 0) {
@@ -613,11 +599,9 @@ arrowLeft.on("click", () => {
   }
   jobPageIndex = (jobPageIndex - 1 + totalJobPages) % totalJobPages;
   updateJobNodes();
-  // 重新生成背景圆圈
   regenerateBackgroundCircles();
 });
 
-// 右箭头圆圈（10°）
 const rightArrowPos = polarToCartesian(centerX, centerY, radiusCountry, 10);
 const arrowRight = svg.append("g")
   .attr("class", "arrow-control right")
@@ -636,7 +620,7 @@ arrowRight.append("text")
   .attr("dy", "0.35em")
   .attr("fill", "black")
   .attr("font-size", "22px")
-  .text("⮎");  // 圆弧箭头右
+  .text("→");
 
 arrowRight.on("click", () => {
   if (jobPageIndex === totalJobPages - 1) {
@@ -645,11 +629,9 @@ arrowRight.on("click", () => {
   }
   jobPageIndex = (jobPageIndex + 1) % totalJobPages;
   updateJobNodes();
-  // 重新生成背景圆圈
   regenerateBackgroundCircles();
 });
 
-// 工具函数：从A点朝向B点方向偏移r的边缘点
 function edgePoint(ax, ay, bx, by, r) {
   const dx = bx - ax;
   const dy = by - ay;
@@ -659,7 +641,6 @@ function edgePoint(ax, ay, bx, by, r) {
   return { x: ax + dx * ratio, y: ay + dy * ratio };
 }
 
-// 画连接线，颜色灰色 (#555555)
 const leftStart = edgePoint(year2020Pos.x, year2020Pos.y, leftArrowPos.x, leftArrowPos.y, yearRadius);
 const leftEnd = edgePoint(leftArrowPos.x, leftArrowPos.y, year2020Pos.x, year2020Pos.y, arrowControlRadius);
 svg.append("line")
@@ -697,7 +678,6 @@ yearNodes.append("text")
   .text(d => d)
   .attr("fill", "black");
 
-
 function adjustToCircleEdge(source, target, radius) {
   const dx = target.x - source.x;
   const dy = target.y - source.y;
@@ -710,40 +690,39 @@ function adjustToCircleEdge(source, target, radius) {
   };
 }
 
-
-// === 更新函数定义 ===
 function updateLinkColors() {
-  // 先将所有连接线重置为灰色和低透明度
+  // Reset all links to default state
   d3.selectAll(".link")
     .attr("stroke", "#555555")
     .style("opacity", 0.15)
-    .attr("stroke-width", 1);  // 添加默认线宽
+    .attr("stroke-width", 1);
   
-  // 1. 高亮被选中国家到年份的连接线（淡粉色）
+  // Highlight selected country links
   d3.selectAll(".link")
     .filter(function() {
       const type = d3.select(this).attr("data-type");
       const country = d3.select(this).attr("data-country");
       return type === "country-link" && country === selectedCountry;
     })
-    .attr("stroke", "#ffb6c1")  // 淡粉色 (LightPink)
-    .style("opacity", 1)  // 保持选中的线不变
-    .attr("stroke-width", 2);  // 加粗选中的线
+    .attr("stroke", "#ffb6c1")
+    .style("opacity", 1)
+    .attr("stroke-width", 2);
   
-  // 2. 高亮被选中年份到职位的连接线（淡粉色）
+  // Highlight selected year links
   d3.selectAll(".link")
     .filter(function() {
       const type = d3.select(this).attr("data-type");
       const year = d3.select(this).attr("data-year");
       return type === "job-link" && year === selectedYear;
     })
-    .attr("stroke", "#ffb6c1")  // 淡粉色 (LightPink)
-    .style("opacity", 1)  // 保持选中的线不变
-    .attr("stroke-width", 2);  // 加粗选中的线
+    .attr("stroke", "#ffb6c1")
+    .style("opacity", 1)
+    .attr("stroke-width", 2);
 }
 
+// Update node highlights based on selection
 function updateNodeHighlights() {
-  // 清除所有高亮
+  // Reset all nodes
   d3.selectAll(".node circle")
     .classed("selected", false)
     .attr("stroke", function() { return d3.select(this).attr("data-original-stroke") || "none"; })
@@ -751,39 +730,37 @@ function updateNodeHighlights() {
     .style("filter", "none")
     .attr("opacity", 0.3);
 
-  // 高亮被选中的国家
+  // Highlight selected country
   d3.selectAll(".node.country")
     .filter(d => d === selectedCountry)
     .select("circle")
     .each(function() {
       const circle = d3.select(this);
       circle
-        .attr("stroke", "#90EE90")  // 使用国家节点的绿色
+        .attr("stroke", "#90EE90")
         .attr("stroke-width", 1.5)
         .attr("opacity", 0.8)
         .style("filter", "drop-shadow(0 0 6px rgba(144, 238, 144, 0.8))")
         .style("cursor", "pointer");
     });
 
-  // 高亮被选中的年份
+  // Highlight selected year
   d3.selectAll(".node.year")
     .filter(d => d === selectedYear)
     .select("circle")
     .each(function() {
       const circle = d3.select(this);
       circle
-        .attr("stroke", "#a88fdd")  // 使用年份节点的紫色
+        .attr("stroke", "#a88fdd")
         .attr("stroke-width", 1.5)
         .attr("opacity", 0.8)
         .style("filter", "drop-shadow(0 0 6px rgba(168, 143, 221, 0.8))")
         .style("cursor", "pointer");
     });
 
-  // 更新legend信息
   updateLegendInfo();
 }
 
-// === 事件监听器绑定 ===
 d3.selectAll(".node.country").on("click", function(event, d) {
   selectedCountry = d;
   updateLinkColors();
@@ -801,38 +778,24 @@ d3.selectAll(".node.year").on("click", function(event, d) {
   updateSalaryInfo();
 });
 
-
-// ==== 新增变量和加载数据 ====
-
-// 在数据加载之前就初始化说明文本
 initializeVisualizationInfo();
 
-// 然后再加载数据
 Promise.all([
   d3.json("salary_by_year_country_avg.json"),
   d3.json("job_descriptions.json")
 ]).then(function([salaryData, descriptionsData]) {
   jobDataFull = salaryData;
   
-  // 将职位描述数据转换为以职位名称为键的对象
   jobDescriptions = descriptionsData.reduce((acc, curr) => {
     acc[curr.job_title] = curr;
     return acc;
   }, {});
   
-  // 获取所有职位
   const allJobs = jobDataFull[selectedYear][selectedCountry] || [];
-  
-  // 计算总页数
   totalJobPages = Math.ceil(allJobs.length / jobsPerPage);
-  
-  // 确保 jobPageIndex 在有效范围内
   jobPageIndex = Math.max(0, Math.min(jobPageIndex, totalJobPages - 1));
-  
-  // 只获取第一页的职位（前10个）
   currentJobs = allJobs.slice(0, jobsPerPage);
   
-  // 设置角度比例尺
   jobAngles = d3.scalePoint()
     .domain(currentJobs.map(d => d.title).sort((a, b) => {
         const jobA = currentJobs.find(job => job.title === a);
@@ -841,7 +804,6 @@ Promise.all([
     }))
     .range([210, 330]);
 
-  // 创建职位节点
   jobNodes = svg.selectAll(".job")
     .data(currentJobs)
     .enter()
@@ -852,9 +814,8 @@ Promise.all([
       return `translate(${pos.x}, ${pos.y})`;
     });
 
-  // 添加圆圈
   jobNodes.append("circle")
-    .attr("r", 32)  // 固定半径为32
+    .attr("r", 32)
     .attr("fill", "#ffb6c1")
     .attr("stroke", "#ffb6c1")
     .attr("stroke-width", 1)
@@ -863,7 +824,6 @@ Promise.all([
     .attr("data-original-stroke", "#ffb6c1")
     .attr("data-original-stroke-width", 1);
 
-  // 添加文本标签
   jobNodes.append("text")
     .attr("fill", "#222")
     .attr("font-size", "8px")
@@ -878,10 +838,9 @@ Promise.all([
     })
     .text(d => d.title);
 
-  // 设置事件监听器
   jobNodes
     .on("click", function(event, d) {
-      showJobDetails(d.title);  // 添加点击事件
+      showJobDetails(d.title);
     })
     .on("mouseover", function(event, d) {
       const circle = d3.select(this).select("circle");
@@ -919,36 +878,26 @@ Promise.all([
         .style("opacity", 0);
     });
 
-  // 初始化连接线和高亮
   updateLinks();
   updateLinkColors();
   updateNodeHighlights();
   updateSalaryInfo();
-
-  // 初始化完成后更新legend信息
   updateLegendInfo();
 }).catch(function(error) {
   console.error("Error loading the data:", error);
 });
 
-// 修改 updateJobNodes 函数，添加分页逻辑
 function updateJobNodes() {
-  // 获取当前国家和年份的所有职位
   const allJobs = (jobDataFull[selectedYear] && jobDataFull[selectedYear][selectedCountry]) 
     ? jobDataFull[selectedYear][selectedCountry] 
     : [];
     
-  // 计算总页数
   totalJobPages = Math.ceil(allJobs.length / jobsPerPage);
-  
-  // 确保 jobPageIndex 在有效范围内
   jobPageIndex = Math.max(0, Math.min(jobPageIndex, totalJobPages - 1));
-  
-  // 获取当前页的职位
   const startIndex = jobPageIndex * jobsPerPage;
   currentJobs = allJobs.slice(startIndex, startIndex + jobsPerPage);
 
-  // 更新角度比例尺
+  // Update job angles based on salary sorting
   jobAngles = d3.scalePoint()
     .domain(currentJobs.map(d => d.title).sort((a, b) => {
         const jobA = currentJobs.find(job => job.title === a);
@@ -957,20 +906,19 @@ function updateJobNodes() {
     }))
     .range([210, 330]);
 
-  // 更新节点
+  // Update visualization
   const jobNodes = svg.selectAll(".node.job")
-    .data(currentJobs, d => d.title); // 使用 title 作为 key
+    .data(currentJobs, d => d.title);
 
-  // 移除不需要的节点
   jobNodes.exit().remove();
 
-  // 添加新节点
   const jobNodesEnter = jobNodes.enter()
     .append("g")
     .attr("class", "node job");
 
+  // Add circles and labels
   jobNodesEnter.append("circle")
-    .attr("r", 32)  // 固定半径为32
+    .attr("r", 32)
     .attr("fill", "#ffb6c1")
     .attr("stroke", "#ffb6c1")
     .attr("stroke-width", 1)
@@ -985,9 +933,9 @@ function updateJobNodes() {
     .attr("text-anchor", "end")
     .attr("dominant-baseline", "middle");
 
-  // 更新所有节点（包括新旧节点）
   const jobNodesUpdate = jobNodesEnter.merge(jobNodes);
 
+  // Update positions and attributes
   jobNodesUpdate
     .attr("transform", d => {
       const pos = polarToCartesian(centerX, centerY, radiusJob, jobAngles(d.title));
@@ -1011,10 +959,10 @@ function updateJobNodes() {
     })
     .text(d => d.title);
 
-  // 更新事件监听器
+  // Add interactivity
   jobNodesUpdate
     .on("click", function(event, d) {
-      showJobDetails(d.title);  // 添加点击事件
+      showJobDetails(d.title);
     })
     .on("mouseover", function(event, d) {
       const circle = d3.select(this).select("circle");
@@ -1052,21 +1000,17 @@ function updateJobNodes() {
         .style("opacity", 0);
     });
 
-  // 更新连接线
   updateLinks();
   updateLinkColors();
 }
 
-// === 初始化显示 ===
 updateLinkColors();
 updateNodeHighlights();
 
-// 初始化背景圆圈
 setTimeout(() => {
   updateProtectedZones();
   generateBackgroundCircles();
 }, 0);
-
 
 function rotateLabelTowardCenter(x, y, cx, cy) {
     const dx = x - cx;
@@ -1081,19 +1025,16 @@ const tooltip = d3.select("body").append("div")
 
 jobNodes.on("mouseover", function(event, d) {
     const circle = d3.select(this).select("circle");
-    // 高亮当前圆圈
     circle
       .transition()
       .duration(200)
       .attr("stroke-width", 2)
       .attr("stroke-opacity", 0.5);
     
-    // 显示tooltip
     tooltip.transition()
       .duration(200)
       .style("opacity", 1);
     
-    // 格式化薪资显示
     const formattedSalary = new Intl.NumberFormat('en-US', {
       style: 'currency',
       currency: 'USD',
@@ -1107,27 +1048,23 @@ jobNodes.on("mouseover", function(event, d) {
   })
   .on("mouseout", function() {
     const circle = d3.select(this).select("circle");
-    // 恢复圆圈原始状态
     circle
       .transition()
       .duration(200)
       .attr("stroke-width", 1)
       .attr("stroke-opacity", 0.15);
     
-    // 隐藏tooltip
     tooltip.transition()
       .duration(500)
       .style("opacity", 0);
   });
 
-// 添加 updateLinks 函数定义（在 updateJobNodes 函数之前）
 function updateLinks() {
-  // 清除现有的连接线
   svg.selectAll(".link").remove();
   
   const links = [];
   
-  // 添加国家到年份的连接
+  // Add country to year links
   years.forEach((year, yi) => {
     const yearX = centerX;
     const yearY = centerY + (yi - 2) * 75;
@@ -1144,7 +1081,7 @@ function updateLinks() {
     });
   });
 
-  // 添加年份到职位的连接
+  // Add year to job links
   if (currentJobs.length > 0) {
     years.forEach((year, yi) => {
       const yearX = centerX;
@@ -1156,14 +1093,14 @@ function updateLinks() {
           source: { x: yearX, y: yearY }, 
           target: pos, 
           sourceRadius: 20, 
-          targetRadius: 32,  // 固定为32，与圆圈大小一致
+          targetRadius: 32,
           color: "#555555"
         });
       });
     });
   }
 
-  // 绘制连接线
+  // Draw links with curved paths
   svg.selectAll(".link")
     .data(links)
     .enter()
@@ -1270,7 +1207,6 @@ function showJobDetails(jobTitle) {
     return;
   }
 
-  // 首先添加职位标题和其他信息
   let html = `<div class="job-modal-title">${jobInfo.job_title}</div>`;
   
   const sections = [
@@ -1292,7 +1228,6 @@ function showJobDetails(jobTitle) {
     }
   });
 
-  // 最后添加薪资趋势图
   html += `
     <div style="border-top: 1px solid #eee; margin: 10px 0;"></div>
     <div class="job-modal-section" style="margin-bottom: 10px;">
@@ -1304,11 +1239,10 @@ function showJobDetails(jobTitle) {
   content.innerHTML = html;
   modal.style.display = 'block';
 
-  // 绘制薪资趋势图
   drawSalaryTrendChart(jobTitle, selectedCountry);
 }
 
-// 获取岗位薪资数据的函数
+// Get salary data for a specific job and country
 function getJobSalaryData(jobTitle, country) {
   const years = ["2020", "2021", "2022", "2023", "2024"];
   return years.map(year => {
@@ -1321,19 +1255,16 @@ function getJobSalaryData(jobTitle, country) {
   });
 }
 
-// 绘制薪资趋势图的函数
+// Draw salary trend chart in modal
 function drawSalaryTrendChart(jobTitle, country) {
   const data = getJobSalaryData(jobTitle, country);
   
-  // 设置图表尺寸和边距，减小整体尺寸
   const margin = {top: 20, right: 20, bottom: 30, left: 50};
-  const width = 500 - margin.left - margin.right;  // 从500减小到400
-  const height = 300 - margin.top - margin.bottom;  // 从300减小到200
+  const width = 500 - margin.left - margin.right;
+  const height = 300 - margin.top - margin.bottom;
 
-  // 清除现有的图表
   d3.select("#salaryTrendChart").selectAll("*").remove();
 
-  // 创建SVG容器
   const svg = d3.select("#salaryTrendChart")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -1341,7 +1272,6 @@ function drawSalaryTrendChart(jobTitle, country) {
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-  // 创建比例尺
   const x = d3.scalePoint()
     .domain(data.map(d => d.year))
     .range([0, width]);
@@ -1350,42 +1280,36 @@ function drawSalaryTrendChart(jobTitle, country) {
     .domain([0, d3.max(data, d => d.salary) * 1.1])
     .range([height, 0]);
 
-  // 创建线条生成器
   const line = d3.line()
     .x(d => x(d.year))
     .y(d => y(d.salary))
     .curve(d3.curveMonotoneX);
 
-  // 添加X轴
   svg.append("g")
     .attr("transform", `translate(0,${height})`)
     .call(d3.axisBottom(x));
 
-  // 添加Y轴
   svg.append("g")
     .call(d3.axisLeft(y)
       .ticks(5)
       .tickFormat(d => `$${d/1000}k`));
 
-  // 添加折线
   svg.append("path")
     .datum(data)
     .attr("fill", "none")
     .attr("stroke", "#90EE90")
-    .attr("stroke-width", 1)  // 从2减小到1
+    .attr("stroke-width", 1)
     .attr("d", line);
 
-  // 添加数据点
   svg.selectAll(".dot")
     .data(data)
     .enter().append("circle")
     .attr("class", "dot")
     .attr("cx", d => x(d.year))
     .attr("cy", d => y(d.salary))
-    .attr("r", 3)  // 从4减小到3，让数据点也相应变小一些
+    .attr("r", 3)
     .attr("fill", "#90EE90");
 
-  // 添加标题
   svg.append("text")
     .attr("x", width / 2)
     .attr("y", -margin.top / 2)
@@ -1394,18 +1318,17 @@ function drawSalaryTrendChart(jobTitle, country) {
     .text(`${jobTitle} - ${countryNames[country]}`);
 }
 
-// 添加点击弹窗外部关闭弹窗的功能
+// Close modal when clicking outside
 window.onclick = function(event) {
   const modal = document.getElementById('jobModal');
   const modalContent = modal.querySelector('.job-modal-content');
   
-  // 如果点击的是模态框但不是模态框的内容区域，则关闭模态框
   if (event.target === modal || (!modalContent.contains(event.target) && event.target !== modalContent)) {
     modal.style.display = 'none';
   }
 }
 
-// 添加更新legend说明的函数
+// Update legend information
 function updateLegendInfo() {
     const infoElement = document.getElementById('currentSelectionInfo');
     if (infoElement) {
