@@ -107,4 +107,4 @@ Use the latest version of Chrome, Edge, or Safari for best experience.
 - Scripts: Python
 
 ## Output
-![[Pasted image 20250409132650.png]]
+![Visualization Screenshot](Output_Data_jobs_salaries.png)
